@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="17dp"
+    android:paddingTop="12dp" >
+
+    <TextView
+        android:id="@+id/worshipItemWeeks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:paddingBottom="3dp"
+        android:text="1월 1주"
+        android:textAppearance="?android:attr/textAppearanceListItem"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp" android:layout_marginRight="2dp"
+                android:text="기도담당"
+                android:textAppearance="?android:attr/textAppearanceListItemSmall" />
+
+            <FrameLayout
+                android:layout_width="0.8dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="4dp" android:layout_marginRight="2dp"
+                
+                android:background="@color/alpha10" >
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/worshipItemContents1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp" android:layout_marginRight="2dp"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:textAppearance="?android:attr/textAppearanceListItemSmall" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0.8dp"
+            android:background="@color/alpha10" >
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp" android:layout_marginRight="2dp"
+                android:text="봉헌담당"
+                android:textAppearance="?android:attr/textAppearanceListItemSmall" />
+
+            <FrameLayout
+                android:layout_width="0.8dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="4dp" android:layout_marginRight="2dp"
+                android:background="@color/alpha10" >
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/worshipItemContents4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp" android:layout_marginRight="2dp"
+                android:ellipsize="marquee"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:gravity="center_vertical"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:textAppearance="?android:attr/textAppearanceListItemSmall" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0.8dp"
+            android:background="@color/alpha10" >
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp" android:layout_marginRight="2dp"
+                android:text="안내담당"
+                android:textAppearance="?android:attr/textAppearanceListItemSmall" />
+
+            <FrameLayout
+                android:layout_width="0.8dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="4dp" android:layout_marginRight="2dp"
+                android:background="@color/alpha10" >
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/worshipItemContents6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp" android:layout_marginRight="2dp"
+                android:ellipsize="marquee"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:gravity="center_vertical"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:textAppearance="?android:attr/textAppearanceListItemSmall" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

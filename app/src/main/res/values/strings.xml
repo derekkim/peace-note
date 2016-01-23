@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">평화교회</string>
+    <string name="title_section1">인사말</string>
+    <string name="title_section2">교회연혁</string>
+    <string name="title_section3">목회계획</string>
+    <string name="title_section4">교회조직</string>
+    <string name="title_section5">예배위원</string>
+    <string name="title_section6">교육/자치기관</string>
+    <string name="title_section7">소그룹</string>
+    <string name="title_section8">연락처</string>
+    <string name="title_section9">청소 및 봉사</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_sort_type">정렬 방식</string>
+    <string name="action_send_message">문자보내기</string>
+
+    <!-- greeting fragment -->
+    <string name="greeting_title">인 사 말</string>
+    <string name="greeting_main_title">더 깊은 은혜로 들어가며,\n 더 깊은 사랑을 나누며...</string>
+    <string name="greeting_main1"> \t\t 2015년 새해를 맞이하는 예배 때 전한 설교의 제목입니다. 금년에는 모든 교우들이 더 깊은 은혜, 더 온전한 치유, 더 건강한 축복, 더 충성된 사역, 더 풍성한 나눔 속으로 들어가기를 원합니다.</string>
+    <string name="greeting_main2"> \t\t 매주 마다 되새기는 ‘사랑의 공동체를 위한 고백문’ 대로 새해에 우리 공동체 안에 가족보다 더한 사랑, 몸의 지체로 연결된 진한 사랑이 넘치길 바랍니다.</string>
+    <string name="greeting_main3"> \t\t 뿐만 아니라 그 사랑이 이웃에게 전해지길 원하며. 우리 교회를 통해, 나를 통해 재정과 재능과 봉사의 손길이 필요한 곳곳에 흘러가길 축복합니다. 2015년에는 교회표어대로 공동체 안과 밖에서 사랑으로 소문난 교회가 되길 기도합니다.</string>
+    <string name="greeting_date">2015년 1월 1일</string>
+    <string name="greeting_name">담임목사 정 지 태</string>
+
+    <!-- history fragment -->
+    <string name="history_title">교회 연혁</string>
+
+    <!-- contact fragment -->
+    <string name="contact_title">주소록</string>
+    
+    <!-- plan fragment -->
+    <string name="plan_title">예배 및 목회계획</string>
+    
+    <!-- help fragment -->
+    <string name="help_title">예배 위원\n기도, 봉헌, 안내 담당</string>
+
+</resources>

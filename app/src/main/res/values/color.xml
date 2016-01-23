@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>     
+    <color name="alpha5">#08000000</color>
+    <color name="alpha10">#1a000000</color>
+    <color name="alpha30">#3a000000</color>
+    <color name="alpha100">#00000000</color>
+    <color name="holo_blue_custom">#cc33b5e5</color>
+</resources>

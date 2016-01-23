@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/contactDetailLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/contactDetailName1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="이름"
+                    android:textAppearance="?android:attr/textAppearanceListItem"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/contactDetailGroup1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="소그룹"
+                    android:textAppearance="?android:attr/textAppearanceListItem"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/contactDetailPhone1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="연락처"
+                    android:textAppearance="?android:attr/textAppearanceListItem"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/contactDetailAddress1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="주소"
+                    android:textAppearance="?android:attr/textAppearanceListItem"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/familyTextView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="가족"
+                    android:textAppearance="?android:attr/textAppearanceListItem"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/contactDetailName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15.5dp"
+                    android:ellipsize="marquee"
+                    android:focusable="true"
+                    android:gravity="right"
+                    android:singleLine="true"
+                    android:text="김탁구"
+                    android:textAppearance="?android:attr/textAppearanceListItem" />
+
+                <TextView
+                    android:id="@+id/contactDetailGroup"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15.5dp"
+                    android:ellipsize="marquee"
+                    android:focusable="true"
+                    android:gravity="right"
+                    android:singleLine="true"
+                    android:text="김탁구"
+                    android:textAppearance="?android:attr/textAppearanceListItem" />
+
+                <TextView
+                    android:id="@+id/contactDetailPhone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15.5dp"
+                    android:ellipsize="marquee"
+                    android:focusable="true"
+                    android:gravity="right"
+                    android:singleLine="true"
+                    android:text="010-7507-6987"
+                    android:textAppearance="?android:attr/textAppearanceListItem" />
+
+                <TextView
+                    android:id="@+id/contactDetailAddress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15.5dp"
+                    android:ellipsize="marquee"
+                    android:focusable="true"
+                    android:gravity="right"
+                    android:singleLine="true"
+                    android:text="상동 호수마을"
+                    android:textAppearance="?android:attr/textAppearanceListItem" />
+
+                <HorizontalScrollView
+                    android:id="@+id/horizontalScrollView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="15.5dp"
+                    android:gravity="right"
+                    android:scrollbars="none" >
+
+                    <LinearLayout
+                        android:id="@+id/contactDetailFamilyListLayout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginTop="2dp"
+                            android:paddingBottom="2dp"
+                            android:text=""
+                            android:textAppearance="?android:attr/textAppearanceListItemSmall" />
+
+                        <TextView
+                            android:id="@+id/contactDetailFamily1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="2dp"
+                            android:background="@drawable/callbutton_selector"
+                            android:clickable="true"
+                            android:paddingBottom="2dp"
+                            android:paddingLeft="8dp"
+                            android:paddingRight="8dp"
+                            android:text="하나"
+                            android:textAppearance="?android:attr/textAppearanceListItemSmall" />
+
+                        <TextView
+                            android:id="@+id/contactDetailFamily2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="2dp"
+                            android:background="@drawable/callbutton_selector"
+                            android:clickable="true"
+                            android:paddingBottom="2dp"
+                            android:paddingLeft="8dp"
+                            android:paddingRight="8dp"
+                            android:text="하나"
+                            android:textAppearance="?android:attr/textAppearanceListItemSmall" />
+
+                        <TextView
+                            android:id="@+id/contactDetailFamily3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="2dp"
+                            android:background="@drawable/callbutton_selector"
+                            android:clickable="true"
+                            android:paddingBottom="2dp"
+                            android:paddingLeft="8dp"
+                            android:paddingRight="8dp"
+                            android:text="하나"
+                            android:textAppearance="?android:attr/textAppearanceListItemSmall" />
+
+                        <TextView
+                            android:id="@+id/contactDetailFamily4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="2dp"
+                            android:background="@drawable/callbutton_selector"
+                            android:clickable="true"
+                            android:paddingBottom="2dp"
+                            android:paddingLeft="8dp"
+                            android:paddingRight="8dp"
+                            android:text="하나"
+                            android:textAppearance="?android:attr/textAppearanceListItemSmall" />
+
+                        <TextView
+                            android:id="@+id/contactDetailFamily5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="2dp"
+                            android:background="@drawable/callbutton_selector"
+                            android:clickable="true"
+                            android:paddingBottom="2dp"
+                            android:paddingLeft="8dp"
+                            android:paddingRight="8dp"
+                            android:text="하나"
+                            android:textAppearance="?android:attr/textAppearanceListItemSmall" />
+                    </LinearLayout>
+                </HorizontalScrollView>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/scrollView1"
+        android:gravity="right" >
+
+        <Button
+            android:id="@+id/detailSmsBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/callbutton_selector"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp"
+            android:text="문자 보내기" />
+
+        <FrameLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent" >
+        </FrameLayout>
+
+        <Button
+            android:id="@+id/detailCallBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/callbutton_selector"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp"
+            android:text="전화 걸기" />
+    </LinearLayout>
+
+</RelativeLayout>

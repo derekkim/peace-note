@@ -1,0 +1,895 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="history_date">
+        <item>1983.01.02.</item>
+        <item>1983.03.13.</item>
+        <item>1983.10.06.</item>
+        <item>1983.10.17.</item>
+        <item>1985.04.15.</item>
+        <item>1985.07.05.</item>
+        <item>1986.08.04.</item>
+        <item>1986.09.23.</item>
+        <item>1987.07.01.</item>
+        <item>1988.04.24.</item>
+        <item>1988.10.30.</item>
+        <item>1988.11.01.</item>
+        <item>1988.11.30.</item>
+        <item>1989.01.01.</item>
+        <item>1989.01.08.</item>
+        <item>1989.02.19.</item>
+        <item>1990.05.10.</item>
+        <item>1990.07.30.</item>
+        <item>1991.01.01.</item>
+        <item>1991.02.03.</item>
+        <item>1991.02.17.</item>
+        <item>1991.03.10.</item>
+        <item>1991.09.01.</item>
+        <item>1991.12.15.</item>
+        <item>1992.11.29.</item>
+        <item>1994.01.01.</item>
+        <item>1995.01.01.</item>
+        <item>1995.04.28.</item>
+        <item>1996.09.15.</item>
+        <item>1997.01.05.</item>
+        <item>1997.10.19.</item>
+        <item>1998.01.04.</item>
+        <item>1998.01.11.</item>
+        <item>1998.09.13.</item>
+        <item>1999.01.03.</item>
+        <item>1999.09.27.</item>
+        <item>1999.11.06.</item>
+        <item>2000.12.26.</item>
+        <item>2001.01.07.</item>
+        <item>2002.01.02.</item>
+        <item>2002.03.03.</item>
+        <item>2002.03.30.</item>
+        <item>2002.11.10.</item>
+        <item>2002.12.27.</item>
+        <item>2003.01.05.</item>
+        <item>2003.03.05.</item>
+        <item>2003.05.04.</item>
+        <item>2003.05.24.</item>
+        <item>2003.05.25.</item>
+        <item>2003.07.06.</item>
+        <item>2003.07.13.</item>
+        <item>2003.08.03.</item>
+        <item>2003.09.18.</item>
+        <item>2003.11.16.</item>
+        <item>2003.11.23.</item>
+        <item>2004.01.25.</item>
+        <item>2004.03.14.</item>
+        <item>2004.03.25.</item>
+        <item>2004.06.06.</item>
+        <item>2004.06.06.</item>
+        <item>2004.08.02.</item>
+        <item>2004.11.29.</item>
+        <item>2005.01.02.</item>
+        <item>2005.01.02.</item>
+        <item>2005.01.23.</item>
+        <item>2005.02.20.</item>
+        <item>2005.10.30.</item>
+        <item>2006.01.01.</item>
+        <item>2006.01.01.</item>
+        <item>2006.05.28.</item>
+        <item>2006.10.23.</item>
+        <item>2007.01.01.</item>
+        <item>2007.01.07.</item>
+        <item>2007.01.28.</item>
+        <item>2007.04.12.</item>
+        <item>2007.04.22.</item>
+        <item>2007.08.10.</item>
+        <item>2007.12.09.</item>
+        <item>2008.01.01.</item>
+        <item>2008.01.01.</item>
+        <item>2008.03.02.</item>
+        <item>2008.12.14.</item>
+        <item>2009.01.04.</item>
+        <item>2009.06.07.</item>
+        <item>2010.01.01.</item>
+        <item>2010.01.03.</item>
+        <item>2010.03.03.</item>
+        <item>2010.06.07.</item>
+        <item>2010.06.27.</item>
+        <item>2010.08.01.</item>
+        <item>2010.09.05.</item>
+        <item>2010.10.21.</item>
+        <item>2011.01.01.</item>
+        <item>2011.01.01.</item>
+        <item>2011.01.01.</item>
+        <item>2011.01.30.</item>
+        <item>2011.02.08.</item>
+        <item>2011.03.06.</item>
+        <item>2011.03.21.</item>
+        <item>2011.10.30.</item>
+        <item>2011.11.20.</item>
+        <item>2012.01.01.</item>
+        <item>2012.01.01.</item>
+        <item>2012.02.28.</item>
+        <item>2012.05.21.</item>
+        <item>2012.06.10.</item>
+        <item>2012.07.09.</item>
+        <item>2012.09.09.</item>
+        <item>2012.12.30.</item>
+        <item>2013.01.01.</item>
+        <item>2013.08.06.</item>
+        <item>2013.07.28.</item>
+        <item>2013.10.21.</item>
+        <item>2014.01.01.</item>
+        <item>2014.07.27.</item>
+        <item>2014.09.05.</item>
+        <item>2014.12.21.</item>
+    </string-array>
+    <string-array name="history_contents">
+        <item>	인천직할시 북구 부평동 715번지 13/6 문경진집사 가정에서 전창도장로, 정원길집사 외 다수가 모여서 처음으로 예배를 드리다.	</item>
+        <item>	초대 담임교역자로 박종무목사 부임(1984.09.30 사임) 및 부평노동청 옆 2층 상가에서 당시 경기서노회 임원진을 모시고 창립예배를 드리다.	</item>
+        <item>	부평시장 로터리 2층 상가로 예배처소를 이전하다.	</item>
+        <item>	대한예수교 장로회(통합) 경기서노회에 가입하다.	</item>
+        <item>	인천직할시 북구 부평 5동 518번지 3호로 예배처소를 이전하다.	</item>
+        <item>	제 2대 담임교역자로 이동호목사(1987.05.31 사임)가 부임하다.	</item>
+        <item>	김영매전도사(1987.12.31 사임) 부임하다.	</item>
+        <item>	대한예수교 장로회(통합) 평양노회(제 125회)에 가입하다.	</item>
+        <item>	제 3대 담임교역자로 조환국전도사(1988.03.23 목사 안수, 1989.04.20 사임)가 부임하다.	</item>
+        <item>	전창도 장로취임, 정원길 윤복영 집사장립 및 이정애 김영매 김명자 신현숙 정금순 김예자 김옥순 권사취임예배를 드리다.	</item>
+        <item>	경기도 부천시 남구 상동 192번지 89호의 대지 (78평)를 예배당부지로 구입하다.	</item>
+        <item>	교회당 개축을 시작하다.	</item>
+        <item>	교회당을 상동 192번지 89호로 이전하다.	</item>
+        <item>	손신기교육전도사(1989.04.20 사임) 부임하다.	</item>
+        <item>	창립 6주년기념 및 입당예배를 드리다.	</item>
+        <item>	정원길집사 은퇴 및 이정애 김명자권사 송별예배를 드리다.	</item>
+        <item>	제 4대 담임교역자로 이성오목사(1991.07.07 사임)가 부임하다.	</item>
+        <item>	예배당 수축 및 십자탑 공사를 완공하다.	</item>
+        <item>	남선교회를 2부(베드로, 바울)로, 여전도회를 3부(한나, 에스더, 마리아)로 분립하다.	</item>
+        <item>	주일예배를 2부(7시 30분, 11시)로 드리다.	</item>
+        <item>	김원기교육전도사(1991.12.29 사임) 부임하다.	</item>
+        <item>	강태수 집사장립 및 김순복 김옥자 권사취임예배를 드리다.	</item>
+        <item>	제 5대 담임교역자로 김중식목사(2001.09.30 사임)가 부임하다.	</item>
+        <item>	전창도장로 은퇴예배를 드리다.	</item>
+        <item>	박영천교육전도사(1996.12.29 사임) 부임하다.	</item>
+        <item>	김승희교육전도사(1996.06.30 사임) 부임하다.	</item>
+        <item>	남선교회를 바울, 여전도회를 에스더, 마리아로 축소하다.	</item>
+        <item>	크로스웨이 성경대학(초급반, 1996.07.07 제 1기 수료)을 개설하다.	</item>
+        <item>	김만수 장동하 집사장립예배를 드리다.	</item>
+        <item>	조순미교육전도사(2000.11.26 사임) 부임하다.	</item>
+        <item>	화평교회와 제1회 친선체육대회를 개최하다.	</item>
+        <item>	천수길교육전도사(1998.12.27 사임) 부임하다.	</item>
+        <item>	전도학교(1998.04.19 제 1기 수료)를 개설하다.	</item>
+        <item>	강태수 장로장립, 윤정영 윤정태 김영목 집사장립 및 최순희 명예권사로 추대예배를 드리다.	</item>
+        <item>	장귀삼교육전도사(2000.09.24 사임) 부임하다.	</item>
+        <item>	부천 상동지구 신도시 개발사업지구로 예배당이 편입됨에 따라 종교부지 신청하다.(상동 526-3 251평[828.3m2] 1999.09.30 계약)	</item>
+        <item>	부천 상동지구 신도시 개발사업지구로 예배당이 편입됨에 따라 예배처소를 인천광역시 부평구 부평 5동 519번지 9호 2층 상가로 이전하다.	</item>
+        <item>	함수경교육전도사(아동부, 2003.06.01 사임)부임하다.	</item>
+        <item>	강석준교육전도사(중고등부, 2004.12.31 사임) 부임하다.	</item>
+        <item>	제 6대 담임교역자로 김광묵목사(2009.12.06 사임) 가 부임하다.	</item>
+        <item>	제자양육반 기초반양육(2003.01.12 제 1기 수료)을 개설하다.	</item>
+        <item>	부천시 원미구 상동 526번지 10호(251평)를 예배당 부지대금을 완납 후 취득하다.	</item>
+        <item>	동 부지에서 예배당 신축기공예배(오후 3시 30분)를 드리다.	</item>
+        <item>	부천시 원미구 상동 536번지 2호로 예배처소를 임시로 이전하다.	</item>
+        <item>	교회학교체계를 그 동안의 아동부, 중고등부, 청년부에서 유치부, 아동부, 중고등부, 청년부로 개편하다.	</item>
+        <item>	제자양육반 영성훈련반(제 1기)을 시작하다.	</item>
+        <item>	최미애교육전도사(유치부, 2004.12.31 사임)부임하다.	</item>
+        <item>	부천시 원미구 상동 526번지 3호에 예배당을 준공하다.	</item>
+        <item>	입당예배 및 이차일 최종범 이남길 유승관 김영구 집사장립, 박태식 조성규 집사취임, 윤순애 문경남 김인순 권사임직예배를 드리다.	</item>
+        <item>	주일 1부예배(9시)를 재개설하다.	</item>
+        <item>	김병천교육전도사(아동부, 2004.12.31 사임)부임하다.	</item>
+        <item>	교회 홈페이지 www.pyongwha.co.kr를 개설하다.	</item>
+        <item>	모세학교(경노대학)를 개설하다.	</item>
+        <item>	남선교회를 2부(여호수아, 바울)로 재분립하다.	</item>
+        <item>	여전도회를 4부(마리아, 에스더, 마르다, 한나)로 재분립하다.	</item>
+        <item>	생명샘 선교회를 창립하다.	</item>
+        <item>	창립기념주일을 3월 2째 주일(교회창립예배일)로 변경하기로 하고, 창립 21주년 기념예배를 드리다.	</item>
+        <item>	베델성서연구반(2005.12.18 제 1기 수료)을 개설하다.	</item>
+        <item>	김학제장로를 협동장로로, 송영계집사를 협동집사로 세우다.	</item>
+        <item>	주일 1부예배를 8시로 변경하다.	</item>
+        <item>	제 1회 전교인 신앙수련회(08.02-04 광탄레져연수원) 를 열다.	</item>
+        <item>	청년부를 1. 2부로 분립하다.	</item>
+        <item>	황양순전도사(심방), 윤승로전도사(교육전임), 황경숙교육전도사(아동부) 부임하다.(2005.12.25 사임)	</item>
+        <item>	주일 1부예배를 9시로 재변경하다.	</item>
+        <item>	이옥선교육전도사(유치부, 2008.12.28 사임) 부임하다.	</item>
+        <item>	이차일(2010.01.24 사임) 윤정영 장로장립 및 권옥진 구경자 명예권사 추대예배를 드리다.	</item>
+        <item>	본당 천정 인테리어공사를 완공하다.	</item>
+        <item>	이문식(청년부, 2006.12.24 사임), 이한일(중고등부), 김선수(아동부, 2006.12.24 사임)교육전도사 부임하다.	</item>
+        <item>	박찬영집사를 협동집사로 세우다.	</item>
+        <item>	이성창전도사를 탄자니아(2007.01 우간다로 사역지 변경, 2007.10.27 목사안수) 선교사로 파송하다.	</item>
+        <item>	“목적이 이끄는 삶 40일” 캠페인(2006.10.23- 12.03)을 실시하다.	</item>
+        <item>	김영우장로를 협동장로로, 황순옥 전행연권사를 협동권사로, 김취향 오춘자권사를 명예권사로 세우다.	</item>
+        <item>	박현태전도사(2007.12.30 사임), 오은영교육전도사(아동부, 2008.12.28 사임) 부임하다.	</item>
+        <item>	소그룹사역을 시작하다.	</item>
+        <item>	알파사역(2007.06.28 제 1기 수료, 2007.11.29 제 2기 수료)을 시작하다.	</item>
+        <item>	강태수 장로은퇴 및 최종범 윤정태 김영목 장로장립, 박건희 이윤봉 이택순 송영계 임재일 집사장립, 전순희 강외남 송수복 박정란 이연자 이미용 강신월 권사안수 예배를 드리다.	</item>
+        <item>	청년부 필리핀 해외단기선교를 시작하다.(08.10-15)	</item>
+        <item>	여전도회를 5부(마리아, 드보라, 에스더, 마르다, 한나)로 재분립하다.	</item>
+        <item>	주일 찬양예배를 2시 30분으로 변경하다.	</item>
+        <item>	김광호 최세환집사를 협동집사로, 임애순권사를 협동권사로 세우다.	</item>
+        <item>	이종범전도사 부임하다.(2009.05.31 사임)	</item>
+        <item>	김광묵목사 위임예배를 드리다.	</item>
+        <item>	진애선전도사(심방, 유치부), 김귀복교육전도사(아동부)부임하다.(2010.12.26 사임)	</item>
+        <item>	김철운준전임전도사(청년부), 한상배교육전도사(중고등부, 2010.12.26 사임) 부임하다.	</item>
+        <item>	이원우집사를 협동집사로, 안경숙집사를 협동권사로 세우다.	</item>
+        <item>	제 7대 담임교역자로 정지태목사가 부임하다.	</item>
+        <item>	수요기도회를 수요하경예배로 변경하다.	</item>
+        <item>	1차(6월)“30일간 새벽을 깨울 30명 기도의 용사” 새벽기도회 시작하다.(6차까지 진행)	</item>
+        <item>	정지태목사 위임예배를 드리다.	</item>
+        <item>	평화교회 C.I 선포하다.	</item>
+        <item>	교회 홈페이지를 개편하고 www.peace-ch.cc로 변경하다.	</item>
+        <item>	일대일 제자양육 동반자반을 시작하다.	</item>
+        <item>	박영천부목사 (2014.12.14. 사임)부임하다.	</item>
+        <item>	장원교육전도사(중고등부, 2013.10.27 사임) 부임하다.	</item>
+        <item>	여전도회를 7부(마리아, 드보라, 뵈뵈, 에스더, 루디아, 마르다, 한나)로 재분립하다.	</item>
+        <item>	최선희교육전도사(아동부) 부임하다.	</item>
+        <item>	성경공부 ‘영성 성장을 위한 첫걸음’시작하다.	</item>
+        <item>	문의배교육전도사(청년부, 2012.08.26 사임) 부임하다.	</item>
+        <item>	30일 캠페인을 시작하다.	</item>
+        <item>	전도축제 ‘행복으로의 초대’시작하다.	</item>
+        <item>	With Joy를 시작하다. 	</item>
+        <item>	남선교회를 4부(디모데, 여호수아, 바울, 갈렙)로 재분립하다.	</item>
+        <item>	유아부, 유치부, 아동부, 중고등부, 청년부로 개편하다.	</item>
+        <item>	성경익스프레스를 시작하다.	</item>
+        <item>	예배당 1층 및 주방, 친교공간 확장, 새가족부실 이전하다. 	</item>
+        <item>	김영우 박태식 이윤봉 장로장립, 김진일 이원우 박종업 이병원 이용욱 집사장립, 전행연 임애순 황순옥 김일순 최성숙 안경숙 이미희 김명옥 임영심 권사안수 예배를 드리다.	</item>
+        <item>	청년부 독일비전트립 시행하다.(07.09-19)	</item>
+        <item>	성덕호교육전도사(청년부) 부임하다.	</item>
+        <item>	이영찬교육전도사(유치부, 2013.12.31 사임) 부임하다.	</item>
+        <item>	새벽기도회를 5시 30분에 드리다.	</item>
+        <item>	청년부 중국아웃리치를 시행하다.(08.06-13)	</item>
+        <item>	일대일 제자양육 양육자반을 시작하다. 	</item>
+        <item>	가을특별밤기도회를 시작하다. 	</item>
+        <item>	이영찬전임전도사(중고등부) 부임하다.	</item>
+        <item>	청송 주왕산교회로 국내 단기선교를 시행하다(07.27~30)	</item>
+        <item>	일본 사카이 영광 교회로 해외 단기선교를 시행하다. (09.05~10)	</item>
+        <item>	임기운전임전도사(유치부) 부임하다.	</item>
+    </string-array>
+    <string-array name="weekday_plan_contents">
+        <item>제직, 청지기 임명\n신년주일\n정기제직회</item>
+        <item>제직 헌신예배</item>
+        <item>남녀선교회 월례회</item>
+        <item>정기당회</item>
+        <item>리더/헬퍼 헌신예배</item>
+        <item> -</item>
+        <item> -</item>
+        <item>정기당회</item>
+        <item>남선교회 헌신예배\n정기제직회</item>
+        <item>창립기념 소그룹 발표회</item>
+        <item> -</item>
+        <item>세례성례전</item>
+        <item>성찬성례전\n종려주일\n정기당회</item>
+        <item>부활주일\n캠페인 리뷰</item>
+        <item> -</item>
+        <item>여전도회 헌신예배</item>
+        <item>정기당회</item>
+        <item>어린이 주일\n정기제직회</item>
+        <item>어버이 주일</item>
+        <item>여전도회 헌신예배</item>
+        <item> -</item>
+        <item>정기당회</item>
+        <item> -</item>
+        <item>행복으로의 초대 (윤형주 장로 초청)</item>
+        <item> -</item>
+        <item>성찬성례전\n상반기 새가족 감사예배\n정기당회</item>
+        <item>맥추감사주일\n교사헌신예배\n정기제직회</item>
+        <item> -</item>
+        <item> -</item>
+        <item>국내단기선교 ① : 26일(일)~29일(수)\n정기당회</item>
+        <item>국내단기선교 ② : 2일(일)~5일(수)</item>
+        <item> -</item>
+        <item> -</item>
+        <item> -</item>
+        <item>정기당회</item>
+        <item>진별행복운동회\n정기제직회</item>
+        <item>세례성례전</item>
+        <item>성찬성례전</item>
+        <item>정기당회</item>
+        <item>추수감사주일\n소그룹발표회</item>
+        <item> -</item>
+        <item> -</item>
+        <item>정기당회</item>
+        <item>정기제직회</item>
+        <item> -</item>
+        <item> -</item>
+        <item>With Joy(위드조이)</item>
+        <item>정기당회</item>
+        <item>하반기 새가족 감사예배\n예산제직회</item>
+        <item>예산공동의회</item>
+        <item> -</item>
+        <item>성찬성례전\n교회학교 수료감사예배\n정기당회</item>
+    </string-array>
+    <string-array name="weekEnd_plan_contents">
+        <item>신년특별새벽기도회 : 5일(월)~10일(토)\n성경일독 시작</item>
+        <item> -</item>
+        <item> -</item>
+        <item> -</item>
+        <item>개강주간 : 소그룹, 성경공부, 중보기도, 전도대</item>
+        <item> -</item>
+        <item> -</item>
+        <item> -</item>
+        <item>대심방 시작</item>
+        <item> -</item>
+        <item> -</item>
+        <item>봄 새벽 캠페인 :23일(월)~4월4일(토)</item>
+        <item>고난주간</item>
+        <item> -</item>
+        <item> -</item>
+        <item>평양노회 제182회 정기노회 : 20일(월)~21일(화)\n봄 부흥회 : 22일(수)~24일(금)</item>
+        <item> -</item>
+        <item> -</item>
+        <item> -</item>
+        <item> -</item>
+        <item> -</item>
+        <item> -</item>
+        <item> -</item>
+        <item> -</item>
+        <item> -</item>
+        <item> -</item>
+        <item> -</item>
+        <item>종강주간 : 성경공부, 중보기도, 전도대</item>
+        <item> -</item>
+        <item>소그룹 종강주간</item>
+        <item> -</item>
+        <item> -</item>
+        <item> -</item>
+        <item>개강주간 :성경공부, 중보기도, 전도대, 소그룹</item>
+        <item> -</item>
+        <item> -</item>
+        <item> -</item>
+        <item> -</item>
+        <item>해외단기선교 : 25일(금)~30일(수)</item>
+        <item> -</item>
+        <item> -</item>
+        <item>평양노회 제183회 정기노회 : 19일(월)~20일(화)\n가을 저녁 캠페인 : 19일(월)~31일(토)</item>
+        <item> -</item>
+        <item> -</item>
+        <item> -</item>
+        <item> -</item>
+        <item>종강주간 : 성경공부, 중보기도, 전도대</item>
+        <item> -</item>
+        <item> -</item>
+        <item>소그룹 종강주간</item>
+        <item>24일(목) 성탄전야 축하 행사</item>
+        <item>31일(목) 송구영신의 밤\n새해맞이 예배</item>
+    </string-array>
+    <string-array name="contact_sort_type">
+        <item>이름</item>
+        <item>소그룹</item>
+    </string-array>
+    <string-array name="worship_helper_weeks">
+        <item>1월 1주</item>
+        <item>1월 2주</item>
+        <item>1월 3주</item>
+        <item>1월 4주</item>
+        <item>2월 1주</item>
+        <item>2월 2주</item>
+        <item>2월 3주</item>
+        <item>2월 4주</item>
+        <item>3월 1주</item>
+        <item>3월 2주</item>
+        <item>3월 3주</item>
+        <item>3월 4주</item>
+        <item>3월 5주</item>
+        <item>4월 1주</item>
+        <item>4월 2주</item>
+        <item>4월 3주</item>
+        <item>4월 4주</item>
+        <item>5월 1주</item>
+        <item>5월 2주</item>
+        <item>5월 3주</item>
+        <item>5월 4주</item>
+        <item>6월 1주</item>
+        <item>6월 2주</item>
+        <item>6월 3주</item>
+        <item>6월 4주</item>
+        <item>6월 5주</item>
+        <item>7월 1주</item>
+        <item>7월 2주</item>
+        <item>7월 3주</item>
+        <item>7월 4주</item>
+        <item>8월 1주</item>
+        <item>8월 2주</item>
+        <item>8월 3주</item>
+        <item>8월 4주</item>
+        <item>8월 5주</item>
+        <item>9월 1주</item>
+        <item>9월 2주</item>
+        <item>9월 3주</item>
+        <item>9월 4주</item>
+        <item>10월 1주</item>
+        <item>10월 2주</item>
+        <item>10월 3주</item>
+        <item>10월 4주</item>
+        <item>11월 1주</item>
+        <item>11월 2주</item>
+        <item>11월 3주</item>
+        <item>11월 4주</item>
+        <item>11월 5주</item>
+        <item>12월 1주</item>
+        <item>12월 2주</item>
+        <item>12월 3주</item>
+        <item>12월 4주</item>
+    </string-array>
+    <string-array name="worship_helper_pray_1">
+        <item>송수복</item>
+        <item>임애순</item>
+        <item>이원우</item>
+        <item>황순옥</item>
+        <item>박종업</item>
+        <item>김일순</item>
+        <item>이병원</item>
+        <item>최성숙</item>
+        <item>이용욱</item>
+        <item>안경숙</item>
+        <item>김진홍</item>
+        <item>이미희</item>
+        <item>정찬영</item>
+        <item>김명옥</item>
+        <item>장동하</item>
+        <item>임영심</item>
+        <item>유승관</item>
+        <item>황대건</item>
+        <item>김영구</item>
+        <item>문경남</item>
+        <item>송영계</item>
+        <item>전순희</item>
+        <item>임재일</item>
+        <item>송수복</item>
+        <item>김진일</item>
+        <item>이미용</item>
+        <item>이원우</item>
+        <item>강신월</item>
+        <item>박종업</item>
+        <item>전행연</item>
+        <item>이병원</item>
+        <item>임애순</item>
+        <item>이용욱</item>
+        <item>황순옥</item>
+        <item>김진홍</item>
+        <item>김일순</item>
+        <item>정찬영</item>
+        <item>최성숙</item>
+        <item>장동하</item>
+        <item>안경숙</item>
+        <item>유승관</item>
+        <item>이미희</item>
+        <item>김영구</item>
+        <item>김명옥</item>
+        <item>송영계</item>
+        <item>임영심</item>
+        <item>임재일</item>
+        <item>황대건</item>
+        <item>김진일</item>
+        <item>문경남</item>
+        <item>이원우</item>
+        <item>전순희</item>
+    </string-array>
+    <string-array name="worship_helper_pray_2">
+        <item>박태식</item>
+        <item>이윤봉</item>
+        <item>윤정영</item>
+        <item>최종범</item>
+        <item>윤정태</item>
+        <item>김영목</item>
+        <item>김영우</item>
+        <item>박태식</item>
+        <item>이윤봉</item>
+        <item>강태수</item>
+        <item>윤정영</item>
+        <item>최종범</item>
+        <item>윤정태</item>
+        <item>김영목</item>
+        <item>김영우</item>
+        <item>박태식</item>
+        <item>이윤봉</item>
+        <item>윤정영</item>
+        <item>최종범</item>
+        <item>윤정태</item>
+        <item>김영목</item>
+        <item>김영우</item>
+        <item>박태식</item>
+        <item>이윤봉</item>
+        <item>윤정영</item>
+        <item>최종범</item>
+        <item>윤정태</item>
+        <item>김영목</item>
+        <item>김영우</item>
+        <item>박태식</item>
+        <item>이윤봉</item>
+        <item>윤정영</item>
+        <item>최종범</item>
+        <item>윤정태</item>
+        <item>김영목</item>
+        <item>김영우</item>
+        <item>박태식</item>
+        <item>이윤봉</item>
+        <item>윤정영</item>
+        <item>최종범</item>
+        <item>윤정태</item>
+        <item>김영목</item>
+        <item>김영우</item>
+        <item>박태식</item>
+        <item>이윤봉</item>
+        <item>윤정영</item>
+        <item>최종범</item>
+        <item>윤정태</item>
+        <item>김영목</item>
+        <item>김영우</item>
+        <item>20-박태식, 25-이윤봉</item>
+        <item>27-윤정영, 31-최종범</item>
+    </string-array>
+    <string-array name="worship_helper_pray_song">
+        <item>정은자</item>
+        <item>제직 헌신예배</item>
+        <item>원희정</item>
+        <item>이정민</item>
+        <item>리더/헬퍼 헌신예배</item>
+        <item>박철수</item>
+        <item>박한용</item>
+        <item>이휘순</item>
+        <item>남선교회 헌신예배</item>
+        <item>소그룹 발표회</item>
+        <item>장향희</item>
+        <item>박흥식</item>
+        <item>전미정</item>
+        <item>캠페인 리뷰</item>
+        <item>박재동</item>
+        <item>여전도회 헌신예배1</item>
+        <item>정원주</item>
+        <item>정은자</item>
+        <item>방성태</item>
+        <item>여전도회 헌신예배2</item>
+        <item>정자영</item>
+        <item>송일영</item>
+        <item>신정범</item>
+        <item>조윤영</item>
+        <item>상반기 새가족 감사예배</item>
+        <item>정혜옥</item>
+        <item>교사 헌신예배</item>
+        <item>조행림</item>
+        <item>안용준</item>
+        <item>오용진</item>
+        <item>주선화</item>
+        <item>지계숙</item>
+        <item>이광수</item>
+        <item>진경심</item>
+        <item>차명주</item>
+        <item>진별 행복 운동회</item>
+        <item>이영호</item>
+        <item>차진이</item>
+        <item>채화선</item>
+        <item>소그룹 발표회</item>
+        <item>정국섭</item>
+        <item>최정이</item>
+        <item>한성희</item>
+        <item>최순호</item>
+        <item>홍혜진</item>
+        <item>강민정</item>
+        <item>한상태</item>
+        <item>고은매</item>
+        <item>고은아</item>
+        <item>고석찬</item>
+        <item>고은영</item>
+        <item>교회학교 수료 감사예배</item>
+    </string-array>
+    <string-array name="worship_helper_gift_2">
+        <item>장동하</item>
+        <item>장동하</item>
+        <item>장동하</item>
+        <item>장동하</item>
+        <item>유승관</item>
+        <item>유승관</item>
+        <item>유승관</item>
+        <item>유승관</item>
+        <item>김영구</item>
+        <item>김영구</item>
+        <item>김영구</item>
+        <item>김영구</item>
+        <item>김영구</item>
+        <item>임재일</item>
+        <item>임재일</item>
+        <item>임재일</item>
+        <item>임재일</item>
+        <item>강호선</item>
+        <item>강호선</item>
+        <item>강호선</item>
+        <item>강호선</item>
+        <item>이용욱</item>
+        <item>이용욱</item>
+        <item>이용욱</item>
+        <item>이용욱</item>
+        <item>이용욱</item>
+        <item>장동하</item>
+        <item>장동하</item>
+        <item>장동하</item>
+        <item>장동하</item>
+        <item>유승관</item>
+        <item>유승관</item>
+        <item>유승관</item>
+        <item>유승관</item>
+        <item>유승관</item>
+        <item>김영구</item>
+        <item>김영구</item>
+        <item>김영구</item>
+        <item>김영구</item>
+        <item>임재일</item>
+        <item>임재일</item>
+        <item>임재일</item>
+        <item>임재일</item>
+        <item>강호선</item>
+        <item>강호선</item>
+        <item>강호선</item>
+        <item>강호선</item>
+        <item>강호선</item>
+        <item>이용욱</item>
+        <item>이용욱</item>
+        <item>이용욱</item>
+        <item>이용욱</item>
+    </string-array>
+    <string-array name="worship_helper_gift_1">
+        <item>김상수</item>
+        <item>김상수</item>
+        <item>김상수</item>
+        <item>김상수</item>
+        <item>권오성</item>
+        <item>권오성</item>
+        <item>권오성</item>
+        <item>권오성</item>
+        <item>박규홍</item>
+        <item>박규홍</item>
+        <item>박규홍</item>
+        <item>박규홍</item>
+        <item>박규홍</item>
+        <item>박상수</item>
+        <item>박상수</item>
+        <item>박상수</item>
+        <item>박상수</item>
+        <item>박성천</item>
+        <item>박성천</item>
+        <item>박성천</item>
+        <item>박성천</item>
+        <item>박세청</item>
+        <item>박세청</item>
+        <item>박세청</item>
+        <item>박세청</item>
+        <item>박세청</item>
+        <item>오용진</item>
+        <item>오용진</item>
+        <item>오용진</item>
+        <item>오용진</item>
+        <item>윤재원</item>
+        <item>윤재원</item>
+        <item>윤재원</item>
+        <item>윤재원</item>
+        <item>윤재원</item>
+        <item>김원기</item>
+        <item>김원기</item>
+        <item>김원기</item>
+        <item>김원기</item>
+        <item>최순호</item>
+        <item>최순호</item>
+        <item>최순호</item>
+        <item>최순호</item>
+        <item>방성태</item>
+        <item>방성태</item>
+        <item>방성태</item>
+        <item>방성태</item>
+        <item>방성태</item>
+        <item>한상태</item>
+        <item>한상태</item>
+        <item>한상태</item>
+        <item>한상태</item>
+    </string-array>
+    <string-array name="worship_helper_helper">
+        <item>박태식 장로</item>
+        <item>박태식 장로</item>
+        <item>박태식 장로</item>
+        <item>박태식 장로</item>
+        <item>이윤봉 장로</item>
+        <item>이윤봉 장로</item>
+        <item>이윤봉 장로</item>
+        <item>이윤봉 장로</item>
+        <item>윤정영 장로</item>
+        <item>윤정영 장로</item>
+        <item>윤정영 장로</item>
+        <item>윤정영 장로</item>
+        <item>윤정영 장로</item>
+        <item>최종범 장로</item>
+        <item>최종범 장로</item>
+        <item>최종범 장로</item>
+        <item>최종범 장로</item>
+        <item>윤정태 장로</item>
+        <item>윤정태 장로</item>
+        <item>윤정태 장로</item>
+        <item>윤정태 장로</item>
+        <item>김영목 장로</item>
+        <item>김영목 장로</item>
+        <item>김영목 장로</item>
+        <item>김영목 장로</item>
+        <item>김영목 장로</item>
+        <item>김영우 장로</item>
+        <item>김영우 장로</item>
+        <item>김영우 장로</item>
+        <item>김영우 장로</item>
+        <item>박태식 장로</item>
+        <item>박태식 장로</item>
+        <item>박태식 장로</item>
+        <item>박태식 장로</item>
+        <item>박태식 장로</item>
+        <item>이윤봉 장로</item>
+        <item>이윤봉 장로</item>
+        <item>이윤봉 장로</item>
+        <item>이윤봉 장로</item>
+        <item>윤정영 장로</item>
+        <item>윤정영 장로</item>
+        <item>윤정영 장로</item>
+        <item>윤정영 장로</item>
+        <item>최종범 장로</item>
+        <item>최종범 장로</item>
+        <item>최종범 장로</item>
+        <item>최종범 장로</item>
+        <item>최종범 장로</item>
+        <item>윤정태 장로</item>
+        <item>윤정태 장로</item>
+        <item>윤정태 장로</item>
+        <item>윤정태 장로</item>
+    </string-array>
+    <string-array name="worship_helper_guide_1">
+        <item>유승관, 임애순</item>
+        <item>유승관, 임애순</item>
+        <item>유승관, 임애순</item>
+        <item>유승관, 임애순</item>
+        <item>박종업, 황순옥</item>
+        <item>박종업, 황순옥</item>
+        <item>박종업, 황순옥</item>
+        <item>박종업, 황순옥</item>
+        <item>정찬영, 김일순</item>
+        <item>정찬영, 김일순</item>
+        <item>정찬영, 김일순</item>
+        <item>정찬영, 김일순</item>
+        <item>정찬영, 김일순</item>
+        <item>이용욱, 최성숙</item>
+        <item>이용욱, 최성숙</item>
+        <item>이용욱, 최성숙</item>
+        <item>이용욱, 최성숙</item>
+        <item>장동하, 안경숙</item>
+        <item>장동하, 안경숙</item>
+        <item>장동하, 안경숙</item>
+        <item>장동하, 안경숙</item>
+        <item>송영계, 임영심</item>
+        <item>송영계, 임영심</item>
+        <item>송영계, 임영심</item>
+        <item>송영계, 임영심</item>
+        <item>송영계, 임영심</item>
+        <item>임재일, 전순희</item>
+        <item>임재일, 전순희</item>
+        <item>임재일, 전순희</item>
+        <item>임재일, 전순희</item>
+        <item>김진일, 송수복</item>
+        <item>김진일, 송수복</item>
+        <item>김진일, 송수복</item>
+        <item>김진일, 송수복</item>
+        <item>김진일, 송수복</item>
+        <item>유승관, 전행연</item>
+        <item>유승관, 전행연</item>
+        <item>유승관, 전행연</item>
+        <item>유승관, 전행연</item>
+        <item>박종업, 임애순</item>
+        <item>박종업, 임애순</item>
+        <item>박종업, 임애순</item>
+        <item>박종업, 임애순</item>
+        <item>정찬영, 황순옥</item>
+        <item>정찬영, 황순옥</item>
+        <item>정찬영, 황순옥</item>
+        <item>정찬영, 황순옥</item>
+        <item>정찬영, 황순옥</item>
+        <item>이용욱, 김일순</item>
+        <item>이용욱, 김일순</item>
+        <item>이용욱, 김일순</item>
+        <item>이용욱, 김일순</item>
+    </string-array>
+    <string-array name="worship_helper_guide_2">
+        <item>담당 장로 및 심방부, 새가족부</item>
+        <item>담당 장로 및 심방부, 새가족부</item>
+        <item>담당 장로 및 심방부, 새가족부</item>
+        <item>담당 장로 및 심방부, 새가족부</item>
+        <item>담당 장로 및 심방부, 새가족부</item>
+        <item>담당 장로 및 심방부, 새가족부</item>
+        <item>담당 장로 및 심방부, 새가족부</item>
+        <item>담당 장로 및 심방부, 새가족부</item>
+        <item>담당 장로 및 심방부, 새가족부</item>
+        <item>담당 장로 및 심방부, 새가족부</item>
+        <item>담당 장로 및 심방부, 새가족부</item>
+        <item>담당 장로 및 심방부, 새가족부</item>
+        <item>담당 장로 및 심방부, 새가족부</item>
+        <item>담당 장로 및 심방부, 새가족부</item>
+        <item>담당 장로 및 심방부, 새가족부</item>
+        <item>담당 장로 및 심방부, 새가족부</item>
+        <item>담당 장로 및 심방부, 새가족부</item>
+        <item>담당 장로 및 심방부, 새가족부</item>
+        <item>담당 장로 및 심방부, 새가족부</item>
+        <item>담당 장로 및 심방부, 새가족부</item>
+        <item>담당 장로 및 심방부, 새가족부</item>
+        <item>담당 장로 및 심방부, 새가족부</item>
+        <item>담당 장로 및 심방부, 새가족부</item>
+        <item>담당 장로 및 심방부, 새가족부</item>
+        <item>담당 장로 및 심방부, 새가족부</item>
+        <item>담당 장로 및 심방부, 새가족부</item>
+        <item>담당 장로 및 심방부, 새가족부</item>
+        <item>담당 장로 및 심방부, 새가족부</item>
+        <item>담당 장로 및 심방부, 새가족부</item>
+        <item>담당 장로 및 심방부, 새가족부</item>
+        <item>담당 장로 및 심방부, 새가족부</item>
+        <item>담당 장로 및 심방부, 새가족부</item>
+        <item>담당 장로 및 심방부, 새가족부</item>
+        <item>담당 장로 및 심방부, 새가족부</item>
+        <item>담당 장로 및 심방부, 새가족부</item>
+        <item>담당 장로 및 심방부, 새가족부</item>
+        <item>담당 장로 및 심방부, 새가족부</item>
+        <item>담당 장로 및 심방부, 새가족부</item>
+        <item>담당 장로 및 심방부, 새가족부</item>
+        <item>담당 장로 및 심방부, 새가족부</item>
+        <item>담당 장로 및 심방부, 새가족부</item>
+        <item>담당 장로 및 심방부, 새가족부</item>
+        <item>담당 장로 및 심방부, 새가족부</item>
+        <item>담당 장로 및 심방부, 새가족부</item>
+        <item>담당 장로 및 심방부, 새가족부</item>
+        <item>담당 장로 및 심방부, 새가족부</item>
+        <item>담당 장로 및 심방부, 새가족부</item>
+        <item>담당 장로 및 심방부, 새가족부</item>
+        <item>담당 장로 및 심방부, 새가족부</item>
+        <item>담당 장로 및 심방부, 새가족부</item>
+        <item>담당 장로 및 심방부, 새가족부</item>
+        <item>담당 장로 및 심방부, 새가족부</item>
+    </string-array>
+    <string-array name="worship_helper_wed">
+        <item>김예자(7일)</item>
+        <item>차진이(14일)</item>
+        <item>강대기(21일)</item>
+        <item>채화선(28일)</item>
+        <item>최정이(4일)</item>
+        <item>강호선(11일)</item>
+        <item>한성희(18일)</item>
+        <item>홍혜진(25일)</item>
+        <item>고상범(4일)</item>
+        <item>강민정(11일)</item>
+        <item>고은매(18일)</item>
+        <item>고현욱(25일)</item>
+        <item>고은아(1일)</item>
+        <item>고은영(8일)</item>
+        <item>권오성(15일)</item>
+        <item>김가영(22일)</item>
+        <item>김경숙B(29일)</item>
+        <item>김민수(6일)</item>
+        <item>김동희(13일)</item>
+        <item>김병희(20일)</item>
+        <item>김병운(27일)</item>
+        <item>김서혜(3일)</item>
+        <item>김순옥(10일)</item>
+        <item>김사원(17일)</item>
+        <item>김영순(24일)</item>
+        <item>김영애(1일)</item>
+        <item>김상수(8일)</item>
+        <item>김종희(15일)</item>
+        <item>김지수(22일)</item>
+        <item>김원기(29일)</item>
+        <item>김진경(5일)</item>
+        <item>김혜정(12일)</item>
+        <item>김태구(19일)</item>
+        <item>김화실(26일)</item>
+        <item>김회숙(2일)</item>
+        <item>문인식(9일)</item>
+        <item>류고분(16일)</item>
+        <item>박매숙(23일)</item>
+        <item>박규홍(30일)</item>
+        <item>박문숙(7일)</item>
+        <item>박순연(14일)</item>
+        <item>박상수(21일)</item>
+        <item>박은혜(28일)</item>
+        <item>박은휘(4일)</item>
+        <item>박성천(11일)</item>
+        <item>박현순(18일)</item>
+        <item>배성심(25)</item>
+        <item>박세청(2일)</item>
+        <item>백락영(9일)</item>
+        <item>손상필(16일)</item>
+        <item>박철수(23일)</item>
+        <item>송종님(30일)</item>
+    </string-array>
+
+</resources>
