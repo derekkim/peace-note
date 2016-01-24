@@ -80,7 +80,7 @@ public class ContactFragment extends Fragment {
      * fragment.
      */
     private static final String ARG_SECTION_NUMBER = "section_number";
-    private boolean ignoreRegistration = true;
+    private boolean ignoreRegistration = false;
 
     /**
      * Returns a new instance of this fragment for the given section
@@ -277,7 +277,7 @@ public class ContactFragment extends Fragment {
 
 
     @Override
-    public void onAttach(Context activity) {
+    public void onAttach(Activity activity) {
         super.onAttach(activity);
         ((MainActivity)activity).onSectionAttached(
                 getArguments().getInt(ARG_SECTION_NUMBER));

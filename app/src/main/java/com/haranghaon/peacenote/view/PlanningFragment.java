@@ -121,7 +121,7 @@ public class PlanningFragment extends Fragment {
     }
 
     @Override
-    public void onAttach(Context activity) {
+    public void onAttach(Activity activity) {
         super.onAttach(activity);
         ((MainActivity)activity).onSectionAttached(
                 getArguments().getInt(ARG_SECTION_NUMBER));
