@@ -119,6 +119,8 @@
         <item>2014.07.27.</item>
         <item>2014.09.05.</item>
         <item>2014.12.21.</item>
+        <item>2015.09.20.</item>
+        <item>2015.12.27.</item>
     </string-array>
     <string-array name="history_contents">
         <item>	인천직할시 북구 부평동 715번지 13/6 문경진집사 가정에서 전창도장로, 정원길집사 외 다수가 모여서 처음으로 예배를 드리다.	</item>
@@ -234,10 +236,12 @@
         <item>	청년부 중국아웃리치를 시행하다.(08.06-13)	</item>
         <item>	일대일 제자양육 양육자반을 시작하다. 	</item>
         <item>	가을특별밤기도회를 시작하다. 	</item>
-        <item>	이영찬전임전도사(중고등부) 부임하다.	</item>
+        <item>	이영찬전임전도사(2015.10.19 부목사로 청빙) 부임하다.	</item>
         <item>	청송 주왕산교회로 국내 단기선교를 시행하다(07.27~30)	</item>
         <item>	일본 사카이 영광 교회로 해외 단기선교를 시행하다. (09.05~10)	</item>
-        <item>	임기운전임전도사(유치부) 부임하다.	</item>
+        <item>	임기운전임전도사(청년부) 부임하다.	</item>
+        <item>	김지혜교육전도사(유치부) 부임하다.</item>
+        <item>	김현호교육전도사(아동부) 부임하다.	</item>
     </string-array>
     <string-array name="weekday_plan_contents">
         <item>제직, 청지기 임명\n신년주일\n정기제직회</item>

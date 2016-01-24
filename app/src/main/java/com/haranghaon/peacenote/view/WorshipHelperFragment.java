@@ -79,33 +79,12 @@ public class WorshipHelperFragment extends Fragment {
         worshipHelperGuide2 = getResources().getStringArray(R.array.worship_helper_guide_2);
         worshipHelperWed = getResources().getStringArray(R.array.worship_helper_wed);
 
-        //init text view for year
-        TextView mDateTextView = (TextView)rootView.findViewById(R.id.helpTitleDate);
-        mDateTextView.setText(worshipHelperWeeks[0]);
-        mListView = (ListView)rootView.findViewById(R.id.helpListView);
+        mListView = (ListView) rootView.findViewById(R.id.helpListView);
         mListView.setAdapter(new WorshipHelperAdapter(getActivity(), worshipHelperWeeks,
                 worshipHelperPray1, worshipHelperPray2, worshipHelperPraySong, worshipHelperGift1,
                 worshipHelperGift2, worshipHelperHelper,
                 worshipHelperGuide1, worshipHelperGuide2, worshipHelperWed));
         mListView.setSelection(getWeekOfYear() - 1);
-        mListView.setOnScrollListener(new OnScrollListener() {
-
-            @Override
-            public void onScrollStateChanged(AbsListView view, int scrollState) {
-                // TODO Auto-generated method stub
-
-            }
-
-            @Override
-            public void onScroll(AbsListView view, int firstVisibleItem, int visibleItemCount,
-                                 int totalItemCount) {
-                String[] array = worshipHelperWeeks;
-                View mParentView = (View)view.getParent();
-                TextView tv = (TextView)mParentView.findViewById(R.id.helpTitleDate);
-                if (0 < firstVisibleItem && firstVisibleItem < array.length)
-                    tv.setText(array[firstVisibleItem]);
-            }
-        });
         return rootView;
     }
 
@@ -123,13 +102,13 @@ public class WorshipHelperFragment extends Fragment {
     @Override
     public void onAttach(Activity activity) {
         super.onAttach(activity);
-        ((MainActivity)activity).onSectionAttached(
+        ((MainActivity) activity).onSectionAttached(
                 getArguments().getInt(ARG_SECTION_NUMBER));
     }
 
     @Override
     public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
-        if (!((MainActivity)getActivity()).getNavigationDrawerFragment().isDrawerOpen()) {
+        if (!((MainActivity) getActivity()).getNavigationDrawerFragment().isDrawerOpen()) {
             // Only show items in the action bar relevant to this screen
             // if the drawer is not showing. Otherwise, let the drawer
             // decide what to show in the action bar.
@@ -186,15 +165,15 @@ public class WorshipHelperFragment extends Fragment {
             View v = convertView;
 
             if (v == null) {
-                LayoutInflater inflater = (LayoutInflater)context
+                LayoutInflater inflater = (LayoutInflater) context
                         .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
                 v = inflater.inflate(R.layout.worship_list_item, null);
             }
 
-            TextView tv0 = (TextView)v.findViewById(R.id.worshipItemWeeks);
-            TextView tv1 = (TextView)v.findViewById(R.id.worshipItemContents1);
-            TextView tv4 = (TextView)v.findViewById(R.id.worshipItemContents4);
-            TextView tv6 = (TextView)v.findViewById(R.id.worshipItemContents6);
+            TextView tv0 = (TextView) v.findViewById(R.id.worshipItemWeeks);
+            TextView tv1 = (TextView) v.findViewById(R.id.worshipItemContents1);
+            TextView tv4 = (TextView) v.findViewById(R.id.worshipItemContents4);
+            TextView tv6 = (TextView) v.findViewById(R.id.worshipItemContents6);
 
             tv0.setText(weeks[position]);
             tv1.setText("1부 예배: " + contents1[position] + "\n2부 예배: " + contents2[position]

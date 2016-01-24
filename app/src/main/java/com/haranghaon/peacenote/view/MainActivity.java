@@ -1,5 +1,6 @@
 package com.haranghaon.peacenote.view;
 
+import android.app.ActionBar;
 import android.app.Activity;
 import android.app.FragmentManager;
 import android.os.Bundle;
@@ -25,21 +26,25 @@ public class MainActivity extends Activity
     private CharSequence mTitle;
 
     private boolean doubleBackToExitPressedOnce = false;
+    private ActionBar mActionBar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        mActionBar = getActionBar();
+        mActionBar.setDisplayHomeAsUpEnabled(true);
+        mActionBar.setDisplayShowHomeEnabled(false);
+
         setContentView(R.layout.activity_main);
 
-        mNavigationDrawerFragment = (NavigationDrawerFragment)getFragmentManager()
+        mNavigationDrawerFragment = (NavigationDrawerFragment) getFragmentManager()
                 .findFragmentById(R.id.navigation_drawer);
         mTitle = getTitle();
 
-        DrawerLayout mDrawerLayout = (DrawerLayout)findViewById(R.id.drawer_layout);
+        DrawerLayout mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
         // Set up the drawer.
         mNavigationDrawerFragment.setUp(
                 R.id.navigation_drawer, mDrawerLayout);
-        //        mDrawerLayout.openDrawer(Gravity.LEFT);
     }
 
     @Override
@@ -72,13 +77,7 @@ public class MainActivity extends Activity
                         .replace(R.id.container, ContactFragment.newInstance(position + 1))
                         .commit();
                 break;
-            case 5:
-                break;
-            case 6:
-                break;
-            case 7:
-                break;
-            case 8:
+            default:
                 break;
         }
     }
@@ -87,24 +86,28 @@ public class MainActivity extends Activity
         Log.d(TAG, "[onSectionAttached] position: " + number);
         number--;
         switch (number) {
-        case 0:
-            mTitle = getString(R.string.title_section1);
-            break;
-        case 1:
-            mTitle = getString(R.string.title_section2);
-            break;
-        case 2:
-            mTitle = getString(R.string.title_section3);
-            break;
-        case 3:
-            mTitle = getString(R.string.title_section5);
-            break;
-        case 4:
-            mTitle = getString(R.string.title_section8);
-            break;
+            case 0:
+                mTitle = getString(R.string.title_section1);
+                break;
+            case 1:
+                mTitle = getString(R.string.title_section2);
+                break;
+            case 2:
+                mTitle = getString(R.string.title_section3);
+                break;
+            case 3:
+                mTitle = getString(R.string.title_section5);
+                break;
+            case 4:
+                mTitle = getString(R.string.title_section8);
+                break;
+            default:
+                mTitle = getString(R.string.app_name);
+                break;
         }
         Log.d(TAG, "[onSectionAttached] mTitle: " + mTitle);
-        this.getActionBar().setTitle(mTitle);
+        mActionBar.setDisplayShowTitleEnabled(true);
+        mActionBar.setTitle(mTitle);
     }
 
     public NavigationDrawerFragment getNavigationDrawerFragment() {
@@ -129,28 +132,4 @@ public class MainActivity extends Activity
             }
         }, 2000);
     }
-    //        @Override
-    //        public boolean onCreateOptionsMenu(Menu menu) {
-    //            if (!mNavigationDrawerFragment.isDrawerOpen()) {
-    //                // Only show items in the action bar relevant to this screen
-    //                // if the drawer is not showing. Otherwise, let the drawer
-    //                // decide what to show in the action bar.
-    //                getMenuInflater().inflate(R.menu.global, menu);
-    //                restoreActionBar();
-    //                return true;
-    //            }
-    //            return super.onCreateOptionsMenu(menu);
-    //        }
-    //    
-    //        @Override
-    //        public boolean onOptionsItemSelected(MenuItem item) {
-    //            // Handle action bar item clicks here. The action bar will
-    //            // automatically handle clicks on the Home/Up button, so long
-    //            // as you specify a parent activity in AndroidManifest.xml.
-    //            int id = item.getItemId();
-    //            if (id == R.id.action_settings) {
-    //                return true;
-    //            }
-    //            return super.onOptionsItemSelected(item);
-    //        }
 }

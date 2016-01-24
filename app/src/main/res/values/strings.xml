@@ -3,10 +3,10 @@
 
     <string name="app_name">평화교회</string>
     <string name="title_section1">인사말</string>
-    <string name="title_section2">교회연혁</string>
-    <string name="title_section3">목회계획</string>
+    <string name="title_section2">교회 연혁</string>
+    <string name="title_section3">예배 및 목회계획</string>
     <string name="title_section4">교회조직</string>
-    <string name="title_section5">예배위원</string>
+    <string name="title_section5">예배 위원</string>
     <string name="title_section6">교육/자치기관</string>
     <string name="title_section7">소그룹</string>
     <string name="title_section8">연락처</string>
@@ -20,11 +20,11 @@
 
     <!-- greeting fragment -->
     <string name="greeting_title">인 사 말</string>
-    <string name="greeting_main_title">더 깊은 은혜로 들어가며,\n 더 깊은 사랑을 나누며...</string>
-    <string name="greeting_main1"> \t\t 2015년 새해를 맞이하는 예배 때 전한 설교의 제목입니다. 금년에는 모든 교우들이 더 깊은 은혜, 더 온전한 치유, 더 건강한 축복, 더 충성된 사역, 더 풍성한 나눔 속으로 들어가기를 원합니다.</string>
-    <string name="greeting_main2"> \t\t 매주 마다 되새기는 ‘사랑의 공동체를 위한 고백문’ 대로 새해에 우리 공동체 안에 가족보다 더한 사랑, 몸의 지체로 연결된 진한 사랑이 넘치길 바랍니다.</string>
-    <string name="greeting_main3"> \t\t 뿐만 아니라 그 사랑이 이웃에게 전해지길 원하며. 우리 교회를 통해, 나를 통해 재정과 재능과 봉사의 손길이 필요한 곳곳에 흘러가길 축복합니다. 2015년에는 교회표어대로 공동체 안과 밖에서 사랑으로 소문난 교회가 되길 기도합니다.</string>
-    <string name="greeting_date">2015년 1월 1일</string>
+    <string name="greeting_main_title"> \t\t 생명사랑과 기도향기로 \n 가득한 교회</string>
+    <string name="greeting_main1">" \t\t 금년에는 \'찾아가는 전도\'와 \'오게 하는 전도\'를 통해서 생명을 전하여 날마다 구원받고 세례 받는 사람이 생겨나길 원합니다."</string>
+    <string name="greeting_main2">" \t\t \'내가 일하면 그냥 내가 일하는 것이지만 내가 기도하면 하나님이 일하신다.\'는 말처럼 금년에는 기도하는 일에 인생의 승부를 걸고 개인과 이웃과 교회와 국가를 위해 깨어 기도하는 한 해가 되길 소원합니다."</string>
+    <string name="greeting_main3">" \t\t 새로운 해가 시작되었습니다. 하지만 해가 바뀌었다고 새해가 되는 것은 아닙니다. 내가 변해야 새해가 됩니다. 2016년에는 생명을 사랑하는 것과 기도하는 일에 변화를 추구하여 명실상부한 새해가 되기를 기도합니다."</string>
+    <string name="greeting_date">2016년 1월 1일</string>
     <string name="greeting_name">담임목사 정 지 태</string>
 
     <!-- history fragment -->

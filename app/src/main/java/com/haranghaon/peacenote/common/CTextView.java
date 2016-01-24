@@ -65,18 +65,6 @@ public class CTextView extends TextView {
     }
 
     @Override
-    protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
-        super.onMeasure(widthMeasureSpec, heightMeasureSpec);
-        int parentWidth = MeasureSpec.getSize(widthMeasureSpec);
-        int parentHeight = MeasureSpec.getSize(heightMeasureSpec);
-        int height = setTextInfo(this.getText().toString(), parentWidth, parentHeight);
-        // 부모 높이가 0인경우 실제 그려줄 높이만큼 사이즈를 놀려줌...
-        if (parentHeight == 0)
-            parentHeight = height;
-        this.setMeasuredDimension(parentWidth, parentHeight);
-    }
-
-    @Override
     protected void onTextChanged(final CharSequence text, final int start, final int before, final int after) {
         // 글자가 변경되었을때 다시 세팅
         setTextInfo(text.toString(), this.getWidth(), this.getHeight());

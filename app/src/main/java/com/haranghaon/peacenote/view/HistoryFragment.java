@@ -60,31 +60,8 @@ public class HistoryFragment extends Fragment {
         historyContents = getResources().getStringArray(R.array.history_contents);
 
         //init text view for year
-        TextView mYearTextView = (TextView)rootView.findViewById(R.id.historyTitleYear);
-        mYearTextView.setText(getResources().getStringArray(R.array.history_date)[0].substring(0, 4) + "년");
         mListView = (ListView)rootView.findViewById(R.id.historyListView);
         mListView.setAdapter(new HistoryAdapter(getActivity(), historyDate, historyContents));
-        mListView.setOnScrollListener(new OnScrollListener() {
-
-            @Override
-            public void onScrollStateChanged(AbsListView view, int scrollState) {
-                // TODO Auto-generated method stub
-
-            }
-
-            @Override
-            public void onScroll(AbsListView view, int firstVisibleItem, int visibleItemCount,
-                                 int totalItemCount) {
-                String[] array = getResources().getStringArray(R.array.history_date);
-                View mParentView = (View)view.getParent();
-                TextView tv = (TextView)mParentView.findViewById(R.id.historyTitleYear);
-                int lastVisibleIndex = firstVisibleItem + visibleItemCount - 1;
-                if (0 <= lastVisibleIndex && lastVisibleIndex < array.length)
-                    tv.setText(array[lastVisibleIndex].substring(0, 4) + "년");
-
-            }
-        });
-
         return rootView;
     }
 
