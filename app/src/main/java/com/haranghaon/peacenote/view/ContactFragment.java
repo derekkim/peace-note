@@ -102,6 +102,9 @@ public class ContactFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+        long start = System.currentTimeMillis();
+        Log.d(TAG, "start: " + (System.currentTimeMillis() - start)); start = System.currentTimeMillis();
+
 
         Log.d(TAG, "DatabaseTest :: onCreate()");
 
@@ -109,6 +112,7 @@ public class ContactFragment extends Fragment {
 
         prefs = getActivity().getSharedPreferences("com.haranghaon.peacenote",
                 getActivity().MODE_PRIVATE);
+        Log.d(TAG, "prefs: " + (System.currentTimeMillis() - start)); start = System.currentTimeMillis();
 
         IntentFilter filter = new IntentFilter();
         filter.addAction(Telephony.Sms.Intents.SMS_RECEIVED_ACTION);
@@ -117,6 +121,7 @@ public class ContactFragment extends Fragment {
         mListView = (ListView)rootView.findViewById(R.id.contactListView);
         mPersonCursorAdapter = new PersonCursorAdapter(getActivity(), getContactCursor(mSort));
         mListView.setAdapter(mPersonCursorAdapter);
+        Log.d(TAG, "mListView.setAdapter: " + (System.currentTimeMillis() - start)); start = System.currentTimeMillis();
 
         mListView.setOnItemClickListener(new OnItemClickListener() {
 
@@ -129,6 +134,7 @@ public class ContactFragment extends Fragment {
                 detailDialog.show(getFragmentManager(), "detail");
             }
         });
+        Log.d(TAG, "mListView.setOnItemClickListener: " + (System.currentTimeMillis() - start)); start = System.currentTimeMillis();
 
         EditText searchEditText = (EditText) rootView.findViewById(R.id.searchEditText);
         searchEditText.addTextChangedListener(new TextWatcher() {

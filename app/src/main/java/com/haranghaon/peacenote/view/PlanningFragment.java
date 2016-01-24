@@ -63,29 +63,9 @@ public class PlanningFragment extends Fragment {
         weekendPlanContents = getResources().getStringArray(R.array.weekEnd_plan_contents);
 
         //init text view for year
-        TextView mDateTextView = (TextView)rootView.findViewById(R.id.planTitleDate);
-        mDateTextView.setText(planDate[0]);
         mListView = (ListView)rootView.findViewById(R.id.planListView);
         mListView.setAdapter(new PlanAdapter(getActivity(), planDate, weekendPlanContents, weekdayPlanContents));
         mListView.setSelection(getWeekOfYear() - 1);
-        mListView.setOnScrollListener(new OnScrollListener() {
-
-            @Override
-            public void onScrollStateChanged(AbsListView view, int scrollState) {
-                // TODO Auto-generated method stub
-
-            }
-
-            @Override
-            public void onScroll(AbsListView view, int firstVisibleItem, int visibleItemCount,
-                                 int totalItemCount) {
-                String[] array = planDate;
-                View mParentView = (View)view.getParent();
-                TextView tv = (TextView)mParentView.findViewById(R.id.planTitleDate);
-                if (0 < firstVisibleItem && firstVisibleItem < array.length)
-                    tv.setText(array[firstVisibleItem]);
-            }
-        });
         return rootView;
     }
 
