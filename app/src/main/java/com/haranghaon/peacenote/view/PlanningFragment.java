@@ -96,7 +96,7 @@ public class PlanningFragment extends Fragment {
     }
 
     private static String[] getSundayDates(int year) {
-        ArrayList<String> sundays = new ArrayList<>();
+        ArrayList<String> sundays = new ArrayList<String>();
         Calendar cal = Calendar.getInstance();
         SimpleDateFormat format = new SimpleDateFormat("MM/dd");
         for (int mm = 1; mm <= 12; mm++) {

@@ -39,6 +39,8 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.WindowManager;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.EditText;
@@ -102,6 +104,7 @@ public class ContactFragment extends Fragment {
                              Bundle savedInstanceState) {
 
         Log.d(TAG, "DatabaseTest :: onCreate()");
+
         View rootView = inflater.inflate(R.layout.fragment_contact, container, false);
 
         prefs = getActivity().getSharedPreferences("com.haranghaon.peacenote",
@@ -127,7 +130,7 @@ public class ContactFragment extends Fragment {
             }
         });
 
-        EditText searchEditText = (EditText)rootView.findViewById(R.id.searchEditText);
+        EditText searchEditText = (EditText) rootView.findViewById(R.id.searchEditText);
         searchEditText.addTextChangedListener(new TextWatcher() {
 
             @Override
@@ -283,44 +286,6 @@ public class ContactFragment extends Fragment {
                 getArguments().getInt(ARG_SECTION_NUMBER));
     }
 
-    //    @Override
-    //    public void onAttach(Activity activity) {
-    //        super.onAttach(activity);
-    //        ((MainActivity)activity).onSectionAttached(
-    //                getArguments().getInt(ARG_SECTION_NUMBER));
-    //
-    //        prefs = getActivity().getSharedPreferences("com.haranghaon.peacenote",
-    //                getActivity().MODE_PRIVATE);
-    //
-    //        this.dbAdapter = new NotesDbAdapter(getActivity());
-    //
-    //        if (prefs.getBoolean("firstrun", true)) {
-    //            copyExcelDataToDatabase();
-    //            prefs.edit().putBoolean("firstrun", false).commit();
-    //        }
-    //
-    //        dbAdapter.open();
-    //        result = dbAdapter.fetchAllNotes();
-    //        result.moveToFirst();
-    //        resultList = new ArrayList<Person>();
-    //        while (!result.isAfterLast()) {
-    //            String name = result.getString(1);
-    //            String group = result.getString(2);
-    //            String address = result.getString(3);
-    //            String phone = result.getString(4);
-    //            String family1 = result.getString(5);
-    //            String family2 = result.getString(6);
-    //            String family3 = result.getString(7);
-    //            String family4 = result.getString(8);
-    //            String family5 = result.getString(9);
-    //            resultList.add(new Person(name, group, address, phone, family1, family2, family3,
-    //                    family4, family5));
-    //            result.moveToNext();
-    //        }
-    //        result.close();
-    //        dbAdapter.close();
-    //    }
-
     @Override
     public void onDetach() {
         // TODO Auto-generated method stub
@@ -331,7 +296,19 @@ public class ContactFragment extends Fragment {
         if (dbAdapter != null) {
             dbAdapter.close();
         }
+        hideKeyboard(getActivity());
         super.onDetach();
+    }
+
+    public static void hideKeyboard(Activity activity) {
+        InputMethodManager imm = (InputMethodManager) activity.getSystemService(Activity.INPUT_METHOD_SERVICE);
+        //Find the currently focused view, so we can grab the correct window token from it.
+        View view = activity.getCurrentFocus();
+        //If no view currently has focus, create a new one, just so we can grab a window token from it
+        if (view == null) {
+            view = new View(activity);
+        }
+        imm.hideSoftInputFromWindow(view.getWindowToken(), 0);
     }
 
     @Override
