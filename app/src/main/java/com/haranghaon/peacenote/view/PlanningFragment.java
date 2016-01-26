@@ -3,6 +3,7 @@ package com.haranghaon.peacenote.view;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.Date;
 
 import android.app.Activity;
 import android.app.Fragment;
@@ -58,7 +59,7 @@ public class PlanningFragment extends Fragment {
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_plan, container, false);
 
-        planDate = getSundayDates(2015);
+        planDate = getSundayDates(getYear());
         weekdayPlanContents = getResources().getStringArray(R.array.weekday_plan_contents);
         weekendPlanContents = getResources().getStringArray(R.array.weekEnd_plan_contents);
 
@@ -67,6 +68,12 @@ public class PlanningFragment extends Fragment {
         mListView.setAdapter(new PlanAdapter(getActivity(), planDate, weekendPlanContents, weekdayPlanContents));
         mListView.setSelection(getWeekOfYear() - 1);
         return rootView;
+    }
+    
+    public static int getYear() {
+        Calendar cal = Calendar.getInstance();
+        cal.setTime(new Date());
+        return cal.get(Calendar.YEAR);
     }
 
     private static int getWeekOfYear() {
