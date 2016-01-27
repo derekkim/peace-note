@@ -244,112 +244,112 @@
         <item>	김현호교육전도사(아동부) 부임하다.	</item>
     </string-array>
     <string-array name="weekday_plan_contents">
-        <item>제직, 청지기 임명\n신년주일\n정기제직회</item>
-        <item>제직 헌신예배</item>
-        <item>남녀선교회 월례회</item>
+        <item>제직 청지기 임명식\n정기 제직회</item>
+        <item>제직청지기 헌신예배\n10일(주) 소그룹지도자 세미나\n: 4주간 주일</item>
+        <item>-</item>
         <item>정기당회</item>
-        <item>리더/헬퍼 헌신예배</item>
-        <item> -</item>
-        <item> -</item>
+        <item>-</item>
+        <item>-</item>
+        <item>소그룹지도자 헌신예배\n- 세례,입교 교육 시작</item>
+        <item>-</item>
         <item>정기당회</item>
-        <item>남선교회 헌신예배\n정기제직회</item>
-        <item>창립기념 소그룹 발표회</item>
-        <item> -</item>
-        <item>세례성례전</item>
-        <item>성찬성례전\n종려주일\n정기당회</item>
-        <item>부활주일\n캠페인 리뷰</item>
-        <item> -</item>
-        <item>여전도회 헌신예배</item>
+        <item>남선교회 헌신예배</item>
+        <item>교회창립 기념주일\n세례, 입교 성례전\n소그룹 발표회\n제직회</item>
+        <item>종려주일\n성찬성례전</item>
+        <item>부활주일\n정기당회</item>
+        <item>여전도회 헌신예배①</item>
+        <item>남선교회주최 족구대회</item>
+        <item>-</item>
         <item>정기당회</item>
-        <item>어린이 주일\n정기제직회</item>
-        <item>어버이 주일</item>
-        <item>여전도회 헌신예배</item>
-        <item> -</item>
-        <item>정기당회</item>
-        <item> -</item>
-        <item>행복으로의 초대 (윤형주 장로 초청)</item>
-        <item> -</item>
+        <item>제직회</item>
+        <item>-</item>
+        <item>-</item>
+        <item>봄 행복으로의 초대①</item>
+        <item>봄 행복으로의 초대②\n정기당회</item>
+        <item>-</item>
+        <item>-</item>
+        <item>여전도회 헌신예배②</item>
         <item>성찬성례전\n상반기 새가족 감사예배\n정기당회</item>
-        <item>맥추감사주일\n교사헌신예배\n정기제직회</item>
-        <item> -</item>
-        <item> -</item>
-        <item>국내단기선교 ① : 26일(일)~29일(수)\n정기당회</item>
-        <item>국내단기선교 ② : 2일(일)~5일(수)</item>
-        <item> -</item>
-        <item> -</item>
-        <item> -</item>
+        <item>맥추 감사주일\n교사헌신예배\n제직회</item>
+        <item>-</item>
+        <item>17일(주)~20일㈜\n국내단기선교 ①팀</item>
+        <item>24일(주)~27(수)\n국내단기선교 ②</item>
         <item>정기당회</item>
-        <item>진별행복운동회\n정기제직회</item>
-        <item>세례성례전</item>
-        <item>성찬성례전</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>소그룹 개강\n정기당회</item>
+        <item>세례입교 성례전\n진별 행복운동회</item>
+        <item>제직회</item>
+        <item>-</item>
         <item>정기당회</item>
-        <item>추수감사주일\n소그룹발표회</item>
-        <item> -</item>
-        <item> -</item>
+        <item>-</item>
+        <item>-</item>
+        <item>추수감사주일</item>
+        <item>가을 행복으로의 초대①</item>
         <item>정기당회</item>
-        <item>정기제직회</item>
-        <item> -</item>
-        <item> -</item>
-        <item>With Joy(위드조이)</item>
-        <item>정기당회</item>
-        <item>하반기 새가족 감사예배\n예산제직회</item>
-        <item>예산공동의회</item>
-        <item> -</item>
-        <item>성찬성례전\n교회학교 수료감사예배\n정기당회</item>
+        <item>가을 행복으로의 초대②</item>
+        <item>- </item>
+        <item>-</item>
+        <item>하반기 새가족 감사예배\n정기당회</item>
+        <item>위드조이(With Joy)\n예산 심의 제직회</item>
+        <item>예산 심의 공동의회</item>
+        <item>성찬성례전\n교회학교 수료예배</item>
+        <item>성탄절 예배\n정기당회</item>
     </string-array>
     <string-array name="weekEnd_plan_contents">
-        <item>신년특별새벽기도회 : 5일(월)~10일(토)\n성경일독 시작</item>
-        <item> -</item>
-        <item> -</item>
-        <item> -</item>
-        <item>개강주간 : 소그룹, 성경공부, 중보기도, 전도대</item>
-        <item> -</item>
-        <item> -</item>
-        <item> -</item>
-        <item>대심방 시작</item>
-        <item> -</item>
-        <item> -</item>
-        <item>봄 새벽 캠페인 :23일(월)~4월4일(토)</item>
-        <item>고난주간</item>
-        <item> -</item>
-        <item> -</item>
-        <item>평양노회 제182회 정기노회 : 20일(월)~21일(화)\n봄 부흥회 : 22일(수)~24일(금)</item>
-        <item> -</item>
-        <item> -</item>
-        <item> -</item>
-        <item> -</item>
-        <item> -</item>
-        <item> -</item>
-        <item> -</item>
-        <item> -</item>
-        <item> -</item>
-        <item> -</item>
-        <item> -</item>
-        <item>종강주간 : 성경공부, 중보기도, 전도대</item>
-        <item> -</item>
-        <item>소그룹 종강주간</item>
-        <item> -</item>
-        <item> -</item>
-        <item> -</item>
-        <item>개강주간 :성경공부, 중보기도, 전도대, 소그룹</item>
-        <item> -</item>
-        <item> -</item>
-        <item> -</item>
-        <item> -</item>
-        <item>해외단기선교 : 25일(금)~30일(수)</item>
-        <item> -</item>
-        <item> -</item>
-        <item>평양노회 제183회 정기노회 : 19일(월)~20일(화)\n가을 저녁 캠페인 : 19일(월)~31일(토)</item>
-        <item> -</item>
-        <item> -</item>
-        <item> -</item>
-        <item> -</item>
-        <item>종강주간 : 성경공부, 중보기도, 전도대</item>
-        <item> -</item>
-        <item> -</item>
-        <item>소그룹 종강주간</item>
-        <item>24일(목) 성탄전야 축하 행사</item>
-        <item>31일(목) 송구영신의 밤\n새해맞이 예배</item>
+        <item>4일(월)~9일(토)\n신년 특별새벽기도회\n6일(수) 어머니 기도회 시작\n: 매주 수요일 10:30\n</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>1일(월) 첫날 기도회</item>
+        <item>소그룹 개강주간</item>
+        <item>-</item>
+        <item>-</item>
+        <item>1(화) 첫날 기도회\n5(토) 전도대 시작(소그룹별) \n- 매주 토요일 오전</item>
+        <item>소그룹 개강주간</item>
+        <item>-</item>
+        <item>-</item>
+        <item>1(금) 첫날 기도회</item>
+        <item>-</item>
+        <item>-</item>
+        <item>봄 부흥회\n:27일(수)~29일(금)</item>
+        <item>2일(월) 첫날 기도회</item>
+        <item>11일(수)\n지역민을 위한 봄 강좌 \n:4주간 매주 수요일 오전</item>
+        <item>21일(토)\n지역민을 위한 뮤지컬 공연 \n:사운드 오브 뮤직</item>
+        <item>-</item>
+        <item>-</item>
+        <item>1일(수) 첫날 기도회\n11일(토)\n여전도회 주관 바자회</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>1일(금) 첫날 기도회</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>1일(월) 첫날 기도회\n해외단기선교\n12일(금)~16(화)</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>1일(목) 첫날 기도회</item>
+        <item>-</item>
+        <item>2주간 가을 캠페인\n19일(월)~10/1일(토)</item>
+        <item>-</item>
+        <item>1일(토) 첫날 기도회\n5(수) 지역민을 위한 가을강좌\n:4주간 매주 수요일 오전</item>
+        <item>-</item>
+        <item>22일(토) 지역민을 위한 음악회</item>
+        <item>-</item>
+        <item>-</item>
+        <item>1일(화) 첫날 기도회</item>
+        <item>12일(토) 계획당회</item>
+        <item>-</item>
+        <item>-</item>
+        <item>1일(목) 첫날 기도회</item>
+        <item>-</item>
+        <item>24일(토) 성탄전야 행사</item>
+        <item>31일(토) 송구영신의 밤\n새해맞이 예배</item>
     </string-array>
     <string-array name="contact_sort_type">
         <item>이름</item>
