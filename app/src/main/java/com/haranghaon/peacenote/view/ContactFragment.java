@@ -241,17 +241,18 @@ public class ContactFragment extends Fragment {
                     }
 
                     private boolean isContain(String input) {
-                        String phoneNumber = "";
-//                        NotesDbAdapter dbAdapter;
-//                        dbAdapter = new NotesDbAdapter(getActivity());
-//                        dbAdapter.open();
+                        NotesDbAdapter dbAdapter;
+                        dbAdapter = new NotesDbAdapter(getActivity());
+                        dbAdapter.open();
                         if ((input.length() == 13 || input.length() == 12) && (input.startsWith("01"))) {
-                            Cursor cursor = dbAdapter.fetchNoteWithPhoneNumber(phoneNumber);
+                            Cursor cursor = dbAdapter.fetchNoteWithPhoneNumber(input);
+                            Log.d(TAG, "cursor count: " + cursor.getCount());
                             try {
                                 Person mPerson = Person.newPerson(cursor, getActivity());
+                                Log.d(TAG, mPerson.toString());
                                 return (mPerson == null) ? false : true;
                             } catch (Exception e) {
-                                // TODO: handle exception
+                                e.printStackTrace();
                             }
                         }
                         return false;
@@ -394,10 +395,10 @@ public class ContactFragment extends Fragment {
                     }
                     dbAdapter.close();
                 } else {
-                    System.out.println("Sheet is null!!");
+                    Log.w(TAG, "Sheet is null!!");
                 }
             } else {
-                System.out.println("WorkBook is null!!");
+                Log.w(TAG, "WorkBook is null!!");
             }
         } catch (Exception e) {
             e.printStackTrace();

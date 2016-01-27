@@ -69,7 +69,7 @@ public class PlanningFragment extends Fragment {
         mListView.setSelection(getWeekOfYear() - 1);
         return rootView;
     }
-    
+
     public static int getYear() {
         Calendar cal = Calendar.getInstance();
         cal.setTime(new Date());

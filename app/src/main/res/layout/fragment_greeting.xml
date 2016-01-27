@@ -15,6 +15,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@+id/greetingHeadLayout"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
         android:scrollbars="none"
         android:layout_above="@+id/greetingDateTextView">
 
@@ -86,7 +88,6 @@
         android:layout_height="wrap_content"
         android:layout_above="@+id/greetingNameTextview"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="15dp"
         android:text="@string/greeting_date"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textSize="21sp" />

@@ -2,9 +2,12 @@ package com.haranghaon.peacenote;
 
 import android.content.Context;
 import android.database.Cursor;
+import android.util.Log;
+import android.widget.Toast;
 
 public class Person {
 
+    private static final String TAG = Person.class.getSimpleName();
     private String name;
     private String group;
     private String address;
@@ -29,6 +32,7 @@ public class Person {
     }
 
     public static Person newPerson(Cursor cursor, Context context) {
+        Log.d(TAG, cursor.getString(1) + ", " + cursor.getString(2) + ", " + cursor.getString(3) + ", " + cursor.getString(4) + ", " + cursor.getString(5) + ", " + cursor.getString(6) + ", " + cursor.getString(7) + ", " + cursor.getString(8) + ", " + cursor.getString(9));
         return new Person(cursor.getString(1), cursor.getString(2),
                 cursor.getString(3), cursor.getString(4), cursor.getString(5), cursor.getString(6),
                 cursor.getString(7), cursor.getString(8), cursor.getString(9));
@@ -69,5 +73,9 @@ public class Person {
 
     public String getFamily5() {
         return family5;
+    }
+
+    public String toString() {
+        return getName() + ", " + getGroup() + ", " + getAddress() + ", " + getPhone() + ", " + getFamily1() + ", " + getFamily2() + ", " + getFamily3() + ", " + getFamily4() + ", " + getFamily5();
     }
 }
