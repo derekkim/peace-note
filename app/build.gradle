@@ -8,7 +8,7 @@ android {
         applicationId "com.haranghaon.peacenote"
         minSdkVersion 19
         targetSdkVersion 23
-        versionCode 100000024
+        versionCode 100000025
         versionName "1.0.0.2"
     }
 
