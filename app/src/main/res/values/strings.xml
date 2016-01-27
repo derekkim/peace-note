@@ -3,13 +3,13 @@
 
     <string name="app_name">평화교회</string>
     <string name="title_section1">인사말</string>
-    <string name="title_section2">교회 연혁</string>
+    <string name="title_section2">연락처</string>
     <string name="title_section3">예배 및 목회계획</string>
     <string name="title_section4">교회조직</string>
     <string name="title_section5">예배 위원</string>
     <string name="title_section6">교육/자치기관</string>
     <string name="title_section7">소그룹</string>
-    <string name="title_section8">연락처</string>
+    <string name="title_section8">교회 연혁</string>
     <string name="title_section9">청소 및 봉사</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>

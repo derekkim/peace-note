@@ -59,7 +59,7 @@ public class MainActivity extends Activity
                 break;
             case 1:
                 fragmentManager.beginTransaction()
-                        .replace(R.id.container, HistoryFragment.newInstance(position + 1))
+                        .replace(R.id.container, ContactFragment.newInstance(position + 1))
                         .commit();
                 break;
             case 2:
@@ -74,7 +74,7 @@ public class MainActivity extends Activity
                 break;
             case 4:
                 fragmentManager.beginTransaction()
-                        .replace(R.id.container, ContactFragment.newInstance(position + 1))
+                        .replace(R.id.container, HistoryFragment.newInstance(position + 1))
                         .commit();
                 break;
             default:
