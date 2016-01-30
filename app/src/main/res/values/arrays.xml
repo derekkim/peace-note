@@ -362,6 +362,7 @@
         <item>1월 2주</item>
         <item>1월 3주</item>
         <item>1월 4주</item>
+        <item>1월 5주</item>
         <item>2월 1주</item>
         <item>2월 2주</item>
         <item>2월 3주</item>
@@ -379,6 +380,7 @@
         <item>5월 2주</item>
         <item>5월 3주</item>
         <item>5월 4주</item>
+        <item>5월 5주</item>
         <item>6월 1주</item>
         <item>6월 2주</item>
         <item>6월 3주</item>
@@ -388,6 +390,7 @@
         <item>7월 2주</item>
         <item>7월 3주</item>
         <item>7월 4주</item>
+        <item>7월 5주</item>
         <item>8월 1주</item>
         <item>8월 2주</item>
         <item>8월 3주</item>
@@ -401,6 +404,7 @@
         <item>10월 2주</item>
         <item>10월 3주</item>
         <item>10월 4주</item>
+        <item>10월 5주</item>
         <item>11월 1주</item>
         <item>11월 2주</item>
         <item>11월 3주</item>
@@ -412,60 +416,67 @@
         <item>12월 4주</item>
     </string-array>
     <string-array name="worship_helper_pray_1">
-        <item>송수복</item>
-        <item>임애순</item>
-        <item>이원우</item>
-        <item>황순옥</item>
         <item>박종업</item>
-        <item>김일순</item>
-        <item>이병원</item>
-        <item>최성숙</item>
-        <item>이용욱</item>
-        <item>안경숙</item>
-        <item>김진홍</item>
-        <item>이미희</item>
-        <item>정찬영</item>
-        <item>김명옥</item>
-        <item>장동하</item>
-        <item>임영심</item>
-        <item>유승관</item>
-        <item>황대건</item>
-        <item>김영구</item>
-        <item>문경남</item>
-        <item>송영계</item>
-        <item>전순희</item>
-        <item>임재일</item>
         <item>송수복</item>
-        <item>김진일</item>
+        <item>이병원</item>
         <item>이미용</item>
-        <item>이원우</item>
-        <item>강신월</item>
-        <item>박종업</item>
-        <item>전행연</item>
-        <item>이병원</item>
-        <item>임애순</item>
         <item>이용욱</item>
-        <item>황순옥</item>
+        <item>임애순</item>
         <item>김진홍</item>
         <item>김일순</item>
         <item>정찬영</item>
         <item>최성숙</item>
+        <item>권경오</item>
+        <item>안경숙</item>
+        <item>김형록</item>
+        <item>-</item>
+        <item>이미희</item>
+        <item>장동하</item>
+        <item>김명옥</item>
+        <item>유승관</item>
+        <item>임영심</item>
+        <item>김영구</item>
+        <item>황대건</item>
+        <item>송영계</item>
+        <item>조숙자</item>
+        <item>임재일</item>
+        <item>권혜녀</item>
+        <item>김진일</item>
+        <item>이송죽</item>
+        <item>-</item>
+        <item>이원우</item>
+        <item>유해림</item>
+        <item>홍종호</item>
+        <item>문경남</item>
+        <item>박종업</item>
+        <item>전순희</item>
+        <item>이병원</item>
+        <item>강신월</item>
+        <item>이용욱</item>
+        <item>송수복</item>
+        <item>김진홍</item>
+        <item>이미용</item>
+        <item>정찬영</item>
+        <item>임애순</item>
+        <item>권경오</item>
+        <item>김일순</item>
+        <item>김형록</item>
+        <item>최성숙</item>
+        <item>-</item>
         <item>장동하</item>
         <item>안경숙</item>
         <item>유승관</item>
         <item>이미희</item>
+        <item>-</item>
         <item>김영구</item>
         <item>김명옥</item>
         <item>송영계</item>
         <item>임영심</item>
-        <item>임재일</item>
-        <item>황대건</item>
-        <item>김진일</item>
-        <item>문경남</item>
-        <item>이원우</item>
-        <item>전순희</item>
     </string-array>
     <string-array name="worship_helper_pray_2">
+        <item>윤정태</item>
+        <item>김영목</item>
+        <item>김영우</item>
         <item>박태식</item>
         <item>이윤봉</item>
         <item>윤정영</item>
@@ -473,15 +484,17 @@
         <item>윤정태</item>
         <item>김영목</item>
         <item>김영우</item>
-        <item>박태식</item>
-        <item>이윤봉</item>
         <item>강태수</item>
+        <item>박태식</item>
+        <item>이윤봉</item>
+        <item>-</item>
         <item>윤정영</item>
         <item>최종범</item>
         <item>윤정태</item>
         <item>김영목</item>
         <item>김영우</item>
         <item>박태식</item>
+        <item>-</item>
         <item>이윤봉</item>
         <item>윤정영</item>
         <item>최종범</item>
@@ -512,189 +525,189 @@
         <item>박태식</item>
         <item>이윤봉</item>
         <item>윤정영</item>
+        <item>-</item>
         <item>최종범</item>
         <item>윤정태</item>
         <item>김영목</item>
-        <item>김영우</item>
-        <item>20-박태식, 25-이윤봉</item>
-        <item>27-윤정영, 31-최종범</item>
+        <item>28-김영우,31-박태식</item>
+
     </string-array>
     <string-array name="worship_helper_pray_song">
-        <item>정은자</item>
-        <item>제직 헌신예배</item>
-        <item>원희정</item>
-        <item>이정민</item>
-        <item>리더/헬퍼 헌신예배</item>
-        <item>박철수</item>
-        <item>박한용</item>
-        <item>이휘순</item>
+        <item>고현욱</item>
+        <item>김가영</item>
+        <item>김사원</item>
+        <item>김경숙</item>
+        <item>-</item>
+        <item>권오성</item>
+        <item>소그룹지도자 헌신예배</item>
+        <item>김원기</item>
+        <item>김동희</item>
         <item>남선교회 헌신예배</item>
-        <item>소그룹 발표회</item>
-        <item>장향희</item>
-        <item>박흥식</item>
-        <item>전미정</item>
-        <item>캠페인 리뷰</item>
+        <item>창립기념 주일</item>
+        <item>박규홍</item>
+        <item>김병희</item>
+        <item>박상수</item>
+        <item>여전도회 헌신예배</item>
+        <item>박성천</item>
+        <item>김서혜</item>
         <item>박재동</item>
-        <item>여전도회 헌신예배1</item>
-        <item>정원주</item>
-        <item>정은자</item>
+        <item>김순옥</item>
+        <item>박철수</item>
+        <item>김영순</item>
+        <item>받한용</item>
+        <item>김예순</item>
+        <item>박흥식</item>
+        <item>김종희</item>
+        <item>여전도회 헌신예배</item>
+        <item>상방기새가족 감사예배</item>
+        <item>-</item>
+        <item>교사헌신 예배</item>
         <item>방성태</item>
-        <item>여전도회 헌신예배2</item>
-        <item>정자영</item>
+        <item>김진경</item>
         <item>송일영</item>
-        <item>신정범</item>
-        <item>조윤영</item>
-        <item>상반기 새가족 감사예배</item>
-        <item>정혜옥</item>
-        <item>교사 헌신예배</item>
-        <item>조행림</item>
+        <item>-</item>
+        <item>김혜정</item>
+        <item>안용준</item>
+        <item>김회숙</item>
+        <item>어용진</item>
+        <item>류고분</item>
+        <item>진별행복 운동회</item>
+        <item>이광수</item>
+        <item>박순연</item>
+        <item>이영호</item>
+        <item>박은휘</item>
+        <item>최순호</item>
+        <item>박현준</item>
+        <item>한상태</item>
+        <item>-</item>
+        <item>배성심</item>
+        <item>강대기</item>
+        <item>백락영</item>
+        <item>강호선</item>
+        <item>하반기새가족 감사예배</item>
+        <item>고상범</item>
+        <item>손상필</item>
+        <item>권오성</item>
+        <item>송종님</item>
+    </string-array>
+    <string-array name="worship_helper_gift_1">
+        <item>이병원</item>
+        <item>이병원</item>
+        <item>이병원</item>
+        <item>이병원</item>
+        <item>이병원</item>
+        <item>김원기</item>
+        <item>김원기</item>
+        <item>김원기</item>
+        <item>김원기</item>
+        <item>김의태</item>
+        <item>김의태</item>
+        <item>김의태</item>
+        <item>김의태</item>
+        <item>김의태</item>
+        <item>박상수</item>
+        <item>박상수</item>
+        <item>박상수</item>
+        <item>박상수</item>
+        <item>박성천</item>
+        <item>박성천</item>
+        <item>박성천</item>
+        <item>박성천</item>
+        <item>박성천</item>
+        <item>박재동</item>
+        <item>박재동</item>
+        <item>박재동</item>
+        <item>박재동</item>
+        <item>박재동</item>
+        <item>김종국</item>
+        <item>김종국</item>
+        <item>김종국</item>
+        <item>김종국</item>
+        <item>김종국</item>
+        <item>김사원</item>
+        <item>김사원</item>
+        <item>김사원</item>
+        <item>김사원</item>
+        <item>김사원</item>
+        <item>안용준</item>
+        <item>안용준</item>
+        <item>안용준</item>
         <item>안용준</item>
         <item>오용진</item>
-        <item>주선화</item>
-        <item>지계숙</item>
-        <item>이광수</item>
-        <item>진경심</item>
-        <item>차명주</item>
-        <item>진별 행복 운동회</item>
-        <item>이영호</item>
-        <item>차진이</item>
-        <item>채화선</item>
-        <item>소그룹 발표회</item>
-        <item>정국섭</item>
-        <item>최정이</item>
-        <item>한성희</item>
+        <item>오용진</item>
+        <item>오용진</item>
+        <item>오용진</item>
+        <item>오용진</item>
+        <item>유지호</item>
+        <item>유지호</item>
+        <item>유지호</item>
+        <item>유지호</item>
+        <item>유지호</item>
         <item>최순호</item>
-        <item>홍혜진</item>
-        <item>강민정</item>
-        <item>한상태</item>
-        <item>고은매</item>
-        <item>고은아</item>
-        <item>고석찬</item>
-        <item>고은영</item>
-        <item>교회학교 수료 감사예배</item>
+        <item>최순호</item>
+        <item>최순호</item>
+        <item>최순호</item>
     </string-array>
     <string-array name="worship_helper_gift_2">
         <item>장동하</item>
         <item>장동하</item>
         <item>장동하</item>
         <item>장동하</item>
-        <item>유승관</item>
-        <item>유승관</item>
-        <item>유승관</item>
-        <item>유승관</item>
-        <item>김영구</item>
-        <item>김영구</item>
-        <item>김영구</item>
-        <item>김영구</item>
-        <item>김영구</item>
-        <item>임재일</item>
-        <item>임재일</item>
-        <item>임재일</item>
-        <item>임재일</item>
-        <item>강호선</item>
-        <item>강호선</item>
-        <item>강호선</item>
-        <item>강호선</item>
-        <item>이용욱</item>
-        <item>이용욱</item>
-        <item>이용욱</item>
-        <item>이용욱</item>
-        <item>이용욱</item>
         <item>장동하</item>
-        <item>장동하</item>
-        <item>장동하</item>
-        <item>장동하</item>
-        <item>유승관</item>
-        <item>유승관</item>
-        <item>유승관</item>
-        <item>유승관</item>
-        <item>유승관</item>
-        <item>김영구</item>
-        <item>김영구</item>
-        <item>김영구</item>
-        <item>김영구</item>
-        <item>임재일</item>
-        <item>임재일</item>
-        <item>임재일</item>
-        <item>임재일</item>
+        <item>박흥식</item>
+        <item>박흥식</item>
+        <item>박흥식</item>
+        <item>박흥식</item>
         <item>강호선</item>
         <item>강호선</item>
         <item>강호선</item>
         <item>강호선</item>
         <item>강호선</item>
+        <item>강대기</item>
+        <item>강대기</item>
+        <item>강대기</item>
+        <item>강대기</item>
         <item>이용욱</item>
         <item>이용욱</item>
         <item>이용욱</item>
         <item>이용욱</item>
-    </string-array>
-    <string-array name="worship_helper_gift_1">
-        <item>김상수</item>
-        <item>김상수</item>
-        <item>김상수</item>
-        <item>김상수</item>
-        <item>권오성</item>
-        <item>권오성</item>
-        <item>권오성</item>
-        <item>권오성</item>
+        <item>이용욱</item>
+        <item>이원우</item>
+        <item>이원우</item>
+        <item>이원우</item>
+        <item>이원우</item>
+        <item>이원우</item>
+        <item>김영구</item>
+        <item>김영구</item>
+        <item>김영구</item>
+        <item>김영구</item>
+        <item>김영구</item>
+        <item>유승관</item>
+        <item>유승관</item>
+        <item>유승관</item>
+        <item>유승관</item>
+        <item>유승관</item>
+        <item>최은석</item>
+        <item>최은석</item>
+        <item>최은석</item>
+        <item>최은석</item>
         <item>박규홍</item>
         <item>박규홍</item>
         <item>박규홍</item>
         <item>박규홍</item>
         <item>박규홍</item>
-        <item>박상수</item>
-        <item>박상수</item>
-        <item>박상수</item>
-        <item>박상수</item>
-        <item>박성천</item>
-        <item>박성천</item>
-        <item>박성천</item>
-        <item>박성천</item>
-        <item>박세청</item>
-        <item>박세청</item>
-        <item>박세청</item>
-        <item>박세청</item>
-        <item>박세청</item>
-        <item>오용진</item>
-        <item>오용진</item>
-        <item>오용진</item>
-        <item>오용진</item>
-        <item>윤재원</item>
-        <item>윤재원</item>
-        <item>윤재원</item>
-        <item>윤재원</item>
-        <item>윤재원</item>
-        <item>김원기</item>
-        <item>김원기</item>
-        <item>김원기</item>
-        <item>김원기</item>
-        <item>최순호</item>
-        <item>최순호</item>
-        <item>최순호</item>
-        <item>최순호</item>
-        <item>방성태</item>
-        <item>방성태</item>
-        <item>방성태</item>
-        <item>방성태</item>
-        <item>방성태</item>
-        <item>한상태</item>
-        <item>한상태</item>
-        <item>한상태</item>
-        <item>한상태</item>
+        <item>김태구</item>
+        <item>김태구</item>
+        <item>김태구</item>
+        <item>김태구</item>
+        <item>김태구</item>
+        <item>임재일</item>
+        <item>임재일</item>
+        <item>임재일</item>
+        <item>임재일</item>
     </string-array>
     <string-array name="worship_helper_helper">
-        <item>박태식 장로</item>
-        <item>박태식 장로</item>
-        <item>박태식 장로</item>
-        <item>박태식 장로</item>
-        <item>이윤봉 장로</item>
-        <item>이윤봉 장로</item>
-        <item>이윤봉 장로</item>
-        <item>이윤봉 장로</item>
-        <item>윤정영 장로</item>
-        <item>윤정영 장로</item>
-        <item>윤정영 장로</item>
-        <item>윤정영 장로</item>
-        <item>윤정영 장로</item>
+        <item>최종범 장로</item>
         <item>최종범 장로</item>
         <item>최종범 장로</item>
         <item>최종범 장로</item>
@@ -721,6 +734,8 @@
         <item>이윤봉 장로</item>
         <item>이윤봉 장로</item>
         <item>이윤봉 장로</item>
+        <item>이윤봉 장로</item>
+        <item>윤정영 장로</item>
         <item>윤정영 장로</item>
         <item>윤정영 장로</item>
         <item>윤정영 장로</item>
@@ -734,60 +749,78 @@
         <item>윤정태 장로</item>
         <item>윤정태 장로</item>
         <item>윤정태 장로</item>
+        <item>김영목 장로</item>
+        <item>김영목 장로</item>
+        <item>김영목 장로</item>
+        <item>김영목 장로</item>
+        <item>김영목 장로</item>
+        <item>김영우 장로</item>
+        <item>김영우 장로</item>
+        <item>김영우 장로</item>
+        <item>김영우 장로</item>
+        <item>김영우 장로</item>
+        <item>박태식 장로</item>
+        <item>박태식 장로</item>
+        <item>박태식 장로</item>
+        <item>박태식 장로</item>
     </string-array>
     <string-array name="worship_helper_guide_1">
-        <item>유승관, 임애순</item>
-        <item>유승관, 임애순</item>
-        <item>유승관, 임애순</item>
-        <item>유승관, 임애순</item>
-        <item>박종업, 황순옥</item>
-        <item>박종업, 황순옥</item>
-        <item>박종업, 황순옥</item>
-        <item>박종업, 황순옥</item>
-        <item>정찬영, 김일순</item>
-        <item>정찬영, 김일순</item>
-        <item>정찬영, 김일순</item>
-        <item>정찬영, 김일순</item>
-        <item>정찬영, 김일순</item>
-        <item>이용욱, 최성숙</item>
-        <item>이용욱, 최성숙</item>
-        <item>이용욱, 최성숙</item>
-        <item>이용욱, 최성숙</item>
+        <item>정찬영, 최성숙</item>
+        <item>정찬영, 최성숙</item>
+        <item>정찬영, 최성숙</item>
+        <item>정찬영, 최성숙</item>
+        <item>정찬영, 최성숙</item>
         <item>장동하, 안경숙</item>
         <item>장동하, 안경숙</item>
         <item>장동하, 안경숙</item>
         <item>장동하, 안경숙</item>
+        <item>유승관, 이미희</item>
+        <item>유승관, 이미희</item>
+        <item>유승관, 이미희</item>
+        <item>유승관, 이미희</item>
+        <item>유승관, 이미희</item>
+        <item>김영구, 김명옥</item>
+        <item>김영구, 김명옥</item>
+        <item>김영구, 김명옥</item>
+        <item>김영구, 김명옥</item>
         <item>송영계, 임영심</item>
         <item>송영계, 임영심</item>
         <item>송영계, 임영심</item>
         <item>송영계, 임영심</item>
         <item>송영계, 임영심</item>
-        <item>임재일, 전순희</item>
-        <item>임재일, 전순희</item>
-        <item>임재일, 전순희</item>
-        <item>임재일, 전순희</item>
-        <item>김진일, 송수복</item>
-        <item>김진일, 송수복</item>
-        <item>김진일, 송수복</item>
-        <item>김진일, 송수복</item>
-        <item>김진일, 송수복</item>
-        <item>유승관, 전행연</item>
-        <item>유승관, 전행연</item>
-        <item>유승관, 전행연</item>
-        <item>유승관, 전행연</item>
-        <item>박종업, 임애순</item>
-        <item>박종업, 임애순</item>
-        <item>박종업, 임애순</item>
-        <item>박종업, 임애순</item>
-        <item>정찬영, 황순옥</item>
-        <item>정찬영, 황순옥</item>
-        <item>정찬영, 황순옥</item>
-        <item>정찬영, 황순옥</item>
-        <item>정찬영, 황순옥</item>
-        <item>이용욱, 김일순</item>
-        <item>이용욱, 김일순</item>
-        <item>이용욱, 김일순</item>
-        <item>이용욱, 김일순</item>
+        <item>임재일, 황대건</item>
+        <item>임재일, 황대건</item>
+        <item>임재일, 황대건</item>
+        <item>임재일, 황대건</item>
+        <item>임재일, 황대건</item>
+        <item>김진일, 조숙자</item>
+        <item>김진일, 조숙자</item>
+        <item>김진일, 조숙자</item>
+        <item>김진일, 조숙자</item>
+        <item>김진일, 조숙자</item>
+        <item>이원우, 권혜녀</item>
+        <item>이원우, 권혜녀</item>
+        <item>이원우, 권혜녀</item>
+        <item>이원우, 권혜녀</item>
+        <item>이원우, 권혜녀</item>
+        <item>박종업, 이송죽</item>
+        <item>박종업, 이송죽</item>
+        <item>박종업, 이송죽</item>
+        <item>박종업, 이송죽</item>
+        <item>이병원, 유해림</item>
+        <item>이병원, 유해림</item>
+        <item>이병원, 유해림</item>
+        <item>이병원, 유해림</item>
+        <item>이병원, 유해림</item>
+        <item>김형록, 문경남</item>
+        <item>김형록, 문경남</item>
+        <item>김형록, 문경남</item>
+        <item>김형록, 문경남</item>
+        <item>김형록, 문경남</item>
+        <item>권경오, 전순희</item>
+        <item>권경오, 전순희</item>
+        <item>권경오, 전순희</item>
+        <item>권경오, 전순희</item>
     </string-array>
     <string-array name="worship_helper_guide_2">
         <item>담당 장로 및 심방부, 새가족부</item>
@@ -844,58 +877,62 @@
         <item>담당 장로 및 심방부, 새가족부</item>
     </string-array>
     <string-array name="worship_helper_wed">
-        <item>김예자(7일)</item>
-        <item>차진이(14일)</item>
-        <item>강대기(21일)</item>
-        <item>채화선(28일)</item>
-        <item>최정이(4일)</item>
-        <item>강호선(11일)</item>
-        <item>한성희(18일)</item>
-        <item>홍혜진(25일)</item>
-        <item>고상범(4일)</item>
-        <item>강민정(11일)</item>
-        <item>고은매(18일)</item>
-        <item>고현욱(25일)</item>
-        <item>고은아(1일)</item>
-        <item>고은영(8일)</item>
-        <item>권오성(15일)</item>
-        <item>김가영(22일)</item>
-        <item>김경숙B(29일)</item>
-        <item>김민수(6일)</item>
-        <item>김동희(13일)</item>
-        <item>김병희(20일)</item>
-        <item>김병운(27일)</item>
-        <item>김서혜(3일)</item>
-        <item>김순옥(10일)</item>
-        <item>김사원(17일)</item>
-        <item>김영순(24일)</item>
-        <item>김영애(1일)</item>
-        <item>김상수(8일)</item>
-        <item>김종희(15일)</item>
-        <item>김지수(22일)</item>
-        <item>김원기(29일)</item>
-        <item>김진경(5일)</item>
-        <item>김혜정(12일)</item>
-        <item>김태구(19일)</item>
-        <item>김화실(26일)</item>
-        <item>김회숙(2일)</item>
-        <item>문인식(9일)</item>
-        <item>류고분(16일)</item>
-        <item>박매숙(23일)</item>
-        <item>박규홍(30일)</item>
-        <item>박문숙(7일)</item>
-        <item>박순연(14일)</item>
-        <item>박상수(21일)</item>
-        <item>박은혜(28일)</item>
-        <item>박은휘(4일)</item>
-        <item>박성천(11일)</item>
-        <item>박현순(18일)</item>
-        <item>배성심(25)</item>
-        <item>박세청(2일)</item>
-        <item>백락영(9일)</item>
-        <item>손상필(16일)</item>
-        <item>박철수(23일)</item>
-        <item>송종님(30일)</item>
+        <item>김예자</item>
+        <item>안정숙</item>
+        <item>박한용</item>
+        <item>안주현</item>
+        <item>-</item>
+        <item>양정희</item>
+        <item>박흥식</item>
+        <item>유병미</item>
+        <item>유승숙</item>
+        <item>방성태</item>
+        <item>유은숙</item>
+        <item>윤영숙</item>
+        <item>송일영</item>
+        <item>김의태</item>
+        <item>윤영예</item>
+        <item>윤형미</item>
+        <item>안용준</item>
+        <item>봄부흥회</item>
+        <item>이경숙</item>
+        <item>이경자</item>
+        <item>오용진</item>
+        <item>이선주</item>
+        <item>-</item>
+        <item>이희정</item>
+        <item>정국섭</item>
+        <item>이휘순</item>
+        <item>장향희</item>
+        <item>김대범</item>
+        <item>유지호</item>
+        <item>전미정</item>
+        <item>정선진</item>
+        <item>이인천</item>
+        <item>-</item>
+        <item>정은자</item>
+        <item>정혜옥</item>
+        <item>강영희</item>
+        <item>조윤영</item>
+        <item>주선화</item>
+        <item>김연수</item>
+        <item>지계숙</item>
+        <item>가을캠페인</item>
+        <item>가을캠페인</item>
+        <item>진경심</item>
+        <item>한윤희</item>
+        <item>차진희</item>
+        <item>채화선</item>
+        <item>-</item>
+        <item>최순호</item>
+        <item>최정이</item>
+        <item>한성희</item>
+        <item>한상태</item>
+        <item>고현욱</item>
+        <item>홍혜진</item>
+        <item>고은매</item>
+        <item>김민수</item>
+        <item>고은아</item>
     </string-array>
 
 </resources>

@@ -59,20 +59,25 @@ public class MainActivity extends Activity
                 break;
             case 1:
                 fragmentManager.beginTransaction()
-                        .replace(R.id.container, ContactFragment.newInstance(position + 1))
+                        .replace(R.id.container, ConfessionFragment.newInstance(position + 1))
                         .commit();
                 break;
             case 2:
                 fragmentManager.beginTransaction()
-                        .replace(R.id.container, PlanningFragment.newInstance(position + 1))
+                        .replace(R.id.container, ContactFragment.newInstance(position + 1))
                         .commit();
                 break;
             case 3:
                 fragmentManager.beginTransaction()
-                        .replace(R.id.container, WorshipHelperFragment.newInstance(position + 1))
+                        .replace(R.id.container, PlanningFragment.newInstance(position + 1))
                         .commit();
                 break;
             case 4:
+                fragmentManager.beginTransaction()
+                        .replace(R.id.container, WorshipHelperFragment.newInstance(position + 1))
+                        .commit();
+                break;
+            case 5:
                 fragmentManager.beginTransaction()
                         .replace(R.id.container, HistoryFragment.newInstance(position + 1))
                         .commit();
@@ -96,10 +101,13 @@ public class MainActivity extends Activity
                 mTitle = getString(R.string.title_section3);
                 break;
             case 3:
-                mTitle = getString(R.string.title_section5);
+                mTitle = getString(R.string.title_section4);
                 break;
             case 4:
-                mTitle = getString(R.string.title_section8);
+                mTitle = getString(R.string.title_section6);
+                break;
+            case 5:
+                mTitle = getString(R.string.title_section9);
                 break;
             default:
                 mTitle = getString(R.string.app_name);

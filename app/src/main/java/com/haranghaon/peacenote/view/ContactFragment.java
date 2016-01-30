@@ -500,7 +500,7 @@ public class ContactFragment extends Fragment {
             Toast.makeText(getActivity(), "인증 성공 하였습니다.", Toast.LENGTH_SHORT).show();
             prefs.edit().putBoolean(IS_REGISTED, true).commit();
             getActivity().getFragmentManager().beginTransaction()
-                    .replace(R.id.container, ContactFragment.newInstance(5))
+                    .replace(R.id.container, ContactFragment.newInstance(3))
                     .commit();
         }
     }

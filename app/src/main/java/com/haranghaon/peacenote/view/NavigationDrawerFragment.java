@@ -90,8 +90,8 @@ public class NavigationDrawerFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
-            Bundle savedInstanceState) {
-        mDrawerListView = (ListView)inflater.inflate(
+                             Bundle savedInstanceState) {
+        mDrawerListView = (ListView) inflater.inflate(
                 R.layout.fragment_navigation_drawer, container, false);
         mDrawerListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
@@ -103,16 +103,16 @@ public class NavigationDrawerFragment extends Fragment {
                 getActionBar().getThemedContext(),
                 android.R.layout.simple_list_item_activated_1,
                 android.R.id.text1,
-                new String[] {
+                new String[]{
                         getString(R.string.title_section1),
                         getString(R.string.title_section2),
                         getString(R.string.title_section3),
-                        //                        getString(R.string.title_section4),
-                        getString(R.string.title_section5),
-                        //                        getString(R.string.title_section6),
+                        getString(R.string.title_section4),
+//                        getString(R.string.title_section5),
+                        getString(R.string.title_section6),
                         //                        getString(R.string.title_section7),
-                        getString(R.string.title_section8),
-                //                        getString(R.string.title_section9),
+//                        getString(R.string.title_section8),
+                        getString(R.string.title_section9),
                 }));
         mDrawerListView.setItemChecked(mCurrentSelectedPosition, true);
         return mDrawerListView;
@@ -211,7 +211,7 @@ public class NavigationDrawerFragment extends Fragment {
     public void onAttach(Activity activity) {
         super.onAttach(activity);
         try {
-            mCallbacks = (NavigationDrawerCallbacks)activity;
+            mCallbacks = (NavigationDrawerCallbacks) activity;
         } catch (ClassCastException e) {
             throw new ClassCastException("Activity must implement NavigationDrawerCallbacks.");
         }

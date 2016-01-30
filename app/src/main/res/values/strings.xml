@@ -3,14 +3,15 @@
 
     <string name="app_name">평화교회</string>
     <string name="title_section1">인사말</string>
-    <string name="title_section2">연락처</string>
-    <string name="title_section3">예배 및 목회계획</string>
-    <string name="title_section4">교회조직</string>
-    <string name="title_section5">예배 위원</string>
-    <string name="title_section6">교육/자치기관</string>
-    <string name="title_section7">소그룹</string>
-    <string name="title_section8">교회 연혁</string>
-    <string name="title_section9">청소 및 봉사</string>
+    <string name="title_section2">고백문</string>
+    <string name="title_section3">연락처</string>
+    <string name="title_section4">예배 및 목회계획</string>
+    <string name="title_section5">교회조직</string>
+    <string name="title_section6">예배 위원</string>
+    <string name="title_section7">교육/자치기관</string>
+    <string name="title_section8">소그룹</string>
+    <string name="title_section9">교회 연혁</string>
+    <string name="title_section10">청소 및 봉사</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="action_example">Example action</string>
@@ -26,6 +27,19 @@
     <string name="greeting_main3">" \t\t 새로운 해가 시작되었습니다. 하지만 해가 바뀌었다고 새해가 되는 것은 아닙니다. 내가 변해야 새해가 됩니다. 2016년에는 생명을 사랑하는 것과 기도하는 일에 변화를 추구하여 명실상부한 새해가 되기를 기도합니다."</string>
     <string name="greeting_date">2016년 1월 1일</string>
     <string name="greeting_name">담임목사 정 지 태</string>
+
+    <!-- confession fragment -->
+    <string name="confession_title">"사랑의 공동체를 위한 고백문"</string>
+    <string name="confession_main1">"우리는 공동체로 존재합니다."</string>
+    <string name="confession_main2">"우리는 하나님의 가족입니다."</string>
+    <string name="confession_main3">"우리는 그리스도의 몸을 이루는 지체입니다."</string>
+    <string name="confession_sub1">" - 서로 감사하며, 약속을 지키며, 진실함으로 대하며, 손대접을 실천하겠습니다."</string>
+    <string name="confession_sub2">" - 사람과 상황에 대해 인내하며 지체에게 배려하는 마음과 품어주는 마음으로 다가가겠습니다."</string>
+    <string name="confession_sub3">" - 나에게 있는 은사에 감사하며 지체의 은사와 협력하여 공동체를 유익하게 하겠습니다."</string>
+    <string name="confession_sub4">" - 믿지 않는 사람들에게 하루 세 번 예수님을 전하고 일년에 세 명 전도하는 일을 실천하여 생명사랑이 넘치는 공동체를 만들겠습니다."</string>
+    <string name="confession_sub5">" - 내가 일하면 내가 일할 뿐 이지만 내가 기도하면 하나님께서 일하신다는 것을 명심하고 기도에 인생의 승부를 걸고 기도의 향기가 가득한 공동체를 만들겠습니다."</string>
+    <string name="confession_end">"우리는 평화교회로 모인 사랑의 공동체입니다."</string>
+
 
     <!-- history fragment -->
     <string name="history_title">교회 연혁</string>
