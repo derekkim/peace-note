@@ -82,7 +82,7 @@ public class ContactFragment extends Fragment {
      * fragment.
      */
     private static final String ARG_SECTION_NUMBER = "section_number";
-    private boolean ignoreRegistration = false;
+    private boolean ignoreRegistration = true;
 
     /**
      * Returns a new instance of this fragment for the given section
